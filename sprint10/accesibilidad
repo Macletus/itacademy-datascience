@@ -1,0 +1,895 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca" xml:lang="ca"><head>
+<meta name="description" content="Els dos principis bàsics del disseny accessible de llocs web són crear pàgines que es transformin correctament i oferir el contingut de manera comprensible per a facilitar la navegació pel lloc web." />
+<meta name="keywords" content="AEMET,Estatal,Meteorologia,Espanya,Agència,Nacional,El Temps,Temps" />
+<meta name="author" content="Agència Estatal de Meteorología" />
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="title" content="Accessibilitat web - Agència Estatal de Meteorologia - AEMET. Govern d'Espanya" />
+<meta name="DC.title" content="Accessibilitat web - Agència Estatal de Meteorologia - AEMET. Govern d'Espanya" />
+<meta name="distribution" content="global" />
+
+<meta name="lang" content="ca" />
+<meta name="language" content="ca" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15" />
+
+<meta property="og:title" content="Accessibilitat web - Agència Estatal de Meteorologia - AEMET. Govern d'Espanya"/>
+<meta property="og:image" content="https://www.aemet.es/imagenes/gif/logo_AEMET_og.gif"/>
+<meta name="application-name" content="Agència Estatal de Meteorologia - AEMET. Govern d'Espanya" />
+<meta name="msapplication-tooltip" content="Agència Estatal de Meteorologia - AEMET. Govern d'Espanya" />
+<meta name="msapplication-starturl" content="https://www.aemet.es/ca/portada" />
+<meta name="msapplication-navbutton-color" content="#4F86D9" />
+<meta name="msapplication-window" content="width=1024;height=768" /> 
+<meta name="msapplication-task"
+      content="name=Inici, Agència Estatal de Meteorología;
+      action-uri=https://www.aemet.es/ca/portada;
+      icon-uri=https://www.aemet.es/favicon.ico" />
+<meta name="msapplication-task"
+      content="name=El temps, Espanya;
+      action-uri=https://www.aemet.es/ca/eltiempo/prediccion/espana;
+      icon-uri=https://www.aemet.es/imagenes/ico/ico_municipios.ico" />
+<meta name="msapplication-task"
+      content="name=El temps, Municipis espanyols;
+      action-uri=https://www.aemet.es/ca/eltiempo/prediccion/municipios;
+      icon-uri=https://www.aemet.es/imagenes/ico/ico_municipios.ico" />
+<meta name="msapplication-task" 
+      content="name=Avisos;
+      action-uri=https://www.aemet.es/ca/eltiempo/prediccion/avisos;
+      icon-uri=https://www.aemet.es/imagenes/ico/ico_avisos.ico" />
+<meta name="msapplication-task" 
+      content="name=Informació;
+      action-uri=https://www.aemet.es/ca/noticias;
+      icon-uri=https://www.aemet.es/favicon.ico" />      
+<meta name="msapplication-task" 
+      content="name=Avui i últims dies;
+      action-uri=https://www.aemet.es/ca/eltiempo/observacion/ultimosdatos;
+      icon-uri=https://www.aemet.es/favicon.ico" />
+<title>Accessibilitat web - Agència Estatal de Meteorologia - AEMET. Govern d'Espanya</title>
+<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css' /> -->
+<link rel="stylesheet" type="text/css" href="/css/fonts.css"  />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/estilos_202010261542.css" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/printer_friendly_202010261542.css" />
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui.css"  />
+<link rel="stylesheet" type="text/css" href="/css/animate.css"  />
+<link rel="stylesheet" type="text/css" href="/css/portlets/portlets.css"  />
+<!-- Important Owl stylesheet -->
+<link rel="stylesheet" type="text/css" href="/css/owl-carousel/owl.carousel.css" />
+<!-- Default Theme -->
+<link rel="stylesheet" type="text/css" href="/css/owl-carousel/owl.theme.css" />
+<!-- MediaElement -->
+<link rel="stylesheet" type="text/css" href="/css/mediaelements/mediaelementplayer.min.css" />
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+<!-- Include js owl plugin -->
+<script type="text/javascript" src="/js/owl-carousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/js/wow/wow.min.js" ></script>
+<link rel="bookmark" href="https://www.aemet.es/es/accesibilidad" />
+<link rel="canonical" href="https://www.aemet.es/es/accesibilidad" />
+<link rel="help" href="/ca/ayuda" />
+<link rel="copyright" href="/ca/nota_legal" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png"/>
+<link rel="alternate" type="text/html" href="https://www.aemet.es/es/accesibilidad" hreflang="es" lang="es" />
+<link rel="alternate" type="text/html" href="https://www.aemet.es/ca/accesibilidad" hreflang="ca" lang="ca" />
+<link rel="alternate" type="text/html" href="https://www.aemet.es/gl/accesibilidad" hreflang="gl" lang="gl" />
+<link rel="alternate" type="text/html" href="https://www.aemet.es/va/accesibilidad" hreflang="va" lang="va" />
+<link rel="alternate" type="text/html" href="https://www.aemet.es/eu/accesibilidad" hreflang="eu" lang="eu" />
+<link rel="alternate" type="text/html" href="https://www.aemet.es/en/accesibilidad" hreflang="en" lang="en" />
+<link rel="alternate" type="text/html" href="https://www.aemet.es/fr/accesibilidad" hreflang="fr" lang="fr" />
+</head>
+<body>
+<div id="capa_global"></div>
+<div id="popup_cookies" class="pop_up_cookies">
+	<div>
+		<div class="padding_popup contenido_popup_cookies">
+			<div class="marginbottom15px">
+			<div title="Aceptar cookies" class="boton_cookies" onclick="aceptaCookies();$('#popup_cookies').remove();">Aceptar cookies</div>
+			<div class="texto_entradilla">Información sobre uso de cookies</div>
+			</div>
+			<div class="notas_tabla">Este sitio web utiliza cookies propias y de terceros para mejorar la experiencia de navegación, y ofrecer contenidos y funcionalidades de interés. Para más información sobre las cookies utilizadas consulta nuestra&nbsp;
+				<div class="enlace_informacion inline_block">
+				<a class="enlace_ver_politica_cookies" href="/ca/politica_cookies">política de cookies</a>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+<div class="fondo_cabecera">
+	<div class="cabecera_transp">
+		<div class="fuera">
+			<h1>
+				Agència Estatal de Meteorología</h1>
+			<ul>
+			 	<li>
+			 		<a href="#contenido" accesskey="c">C&nbsp;-&nbsp;Anar al contingut</a>
+			 	</li>
+	    		<li>
+	    			<a href="/ca/accesibilidad" accesskey="0">0&nbsp;-&nbsp;Accessibilitat Web</a></li>
+	    		<li>
+	    			<a href="/ca/portada" accesskey="1">1&nbsp;-&nbsp;Inici</a></li>    		
+	    		<li>
+	    			<a href="/ca/mapaweb" accesskey="2">2&nbsp;-&nbsp;Mapa web</a></li>
+		   		<li>
+		   			<a href="/ca/ayuda" accesskey="3">3&nbsp;-&nbsp;Ajuda web</a></li>    		
+		   		<li>
+	<a href="/ca/contactar" accesskey="4">4&nbsp;-&nbsp;Contactar</a></li>
+		   		<li>
+		   			<a href="/ca/eltiempo/prediccion/municipios" accesskey="5">5&nbsp;-&nbsp;Municipis</a></li>
+		   		<li>
+		   			<a href="/ca/eltiempo/prediccion/avisos" accesskey="6">6&nbsp;-&nbsp;Avisos</a></li>	   			   				  	
+			</ul>
+		</div>
+		<div class="logo">
+			<div class="logo1">
+			 	<a aria-label="Agència Estatal de Meteorología" class="enlace_aemet" title="Agència Estatal de Meteorología" href="/ca/portada"></a> 
+			    <a aria-label="Ministerio para la Transición Ecológica y el Reto Demográfico.&nbsp;(s'obrirà en una finestra nova)" target="_blank" class="enlace_magrama" title="Ministerio para la Transición Ecológica y el Reto Demográfico.&nbsp;(s'obrirà en una finestra nova)" href="https://www.miteco.gob.es"></a>
+				<img src="/ca/imagen-logo1" alt="Agència Estatal de Meteorología" title="Agència Estatal de Meteorología"/>
+			</div>
+			<div class="logo2">
+				<a aria-label="Pla de recuperació, Transformació i Resiliència.&nbsp;(s'obrirà en una finestra nova)" target="_blank" class="enlace_moncloa" title="Pla de recuperació, Transformació i Resiliència.&nbsp;(s'obrirà en una finestra nova)" href="https://planderecuperacion.gob.es/"></a>
+			 		<img src="/ca/imagen-logo2" alt="Pla de recuperació, Transformació i Resiliència" title="Pla de recuperació, Transformació i Resiliència"/>
+			 	</div>
+		</div>
+		<div class="menu_cabecera">
+			<ul>	
+	    		<li>
+					<div class="contenedor_idiomas_mini">
+						<input type="checkbox" id="idiomas_mini" class="checkbox_oculto_idiomas" /><label for="idiomas_mini" class="nav_select_idiomas">					
+						
+							ca
+							<span class="arrow-down_white margin_combo_mini_idioma">&nbsp;</span></label>
+					   <ul class="nav_idiomas">
+							<li><a class="separador_idiomas" lang="es" hreflang="es" href="https://www.aemet.es/es/accesibilidad" title="Español">es</a></li>
+							<li><a class="separador_idiomas" lang="ca" hreflang="ca" href="https://www.aemet.es/ca/accesibilidad" title="Català">ca</a></li>
+							<li><a class="separador_idiomas" lang="gl" hreflang="gl" href="https://www.aemet.es/gl/accesibilidad" title="Galego">gl</a></li>
+							<li><a class="separador_idiomas" lang="va" hreflang="va" href="https://www.aemet.es/va/accesibilidad" title="Valencià">va</a></li>
+							<li><a class="separador_idiomas" lang="eu" hreflang="eu" href="https://www.aemet.es/eu/accesibilidad" title="Euskara">eu</a></li>
+							<li><a class="separador_idiomas" lang="en" hreflang="en" href="https://www.aemet.es/en/accesibilidad" title="English">en</a></li>
+							<li><a class="separador_idiomas" lang="fr" hreflang="fr" href="https://www.aemet.es/fr/accesibilidad" title="Français">fr</a></li>					
+					   </ul>
+					</div>	    		
+					<div class="contenedor_idiomas">
+						<input type="checkbox" id="idiomas" class="checkbox_oculto_idiomas" /><label for="idiomas" class="nav_select_idiomas">					
+						Benvinguts<span class="arrow-down_white">&nbsp;</span></label>
+					   <ul class="nav_idiomas">
+							<li><a class="separador_idiomas" lang="es" hreflang="es" href="https://www.aemet.es/es/accesibilidad" title="Español">Bienvenido</a></li>
+							<li><a class="separador_idiomas" lang="ca" hreflang="ca" href="https://www.aemet.es/ca/accesibilidad" title="Català">Benvinguts</a></li>
+							<li><a class="separador_idiomas" lang="gl" hreflang="gl" href="https://www.aemet.es/gl/accesibilidad" title="Galego">Benvidos</a></li>
+							<li><a class="separador_idiomas" lang="va" hreflang="va" href="https://www.aemet.es/va/accesibilidad" title="Valencià">Benvinguts</a></li>
+							<li><a class="separador_idiomas" lang="eu" hreflang="eu" href="https://www.aemet.es/eu/accesibilidad" title="Euskara">Ongi etorri</a></li>
+							<li><a class="separador_idiomas" lang="en" hreflang="en" href="https://www.aemet.es/en/accesibilidad" title="English">Welcome</a></li>
+							<li><a class="separador_idiomas" lang="fr" hreflang="fr" href="https://www.aemet.es/fr/accesibilidad" title="Français">Bienvenue</a></li>					
+					   </ul>
+					</div>
+	    		</li>
+<!-- 				<li class="barra_separadora">|</li>			 -->
+	    		<li>
+	    			<input type="checkbox" id="buscador_oculto" class="checkbox_oculto_buscador" /><label for="buscador_oculto" class="nav_select_buscador"></label>
+					<div class="caja_contenedor_busqueda icono_red_social_cabecera">	
+						<form id="FrmBuscador" method="get" action="/ca/buscador"><div class="contenedor_buscador">									
+								<input class="texto_buscador" value="Introduïu text" aria-label ="Introduïu text" name="str" id="buscar" onfocus="this.value=(this.value=='Introduïu text') ? '' : this.value;" onblur="this.value=(this.value=='') ? 'Introduïu text' : this.value;"/>
+								<input type="hidden" name="modo" value="and" /><input type="hidden" name="orden" value="n" /><input type="hidden" name="tipo" value="sta" /><input type="submit" value=" " class="boton_buscar_cabecera" title="Cercar" alt="Cercar" /></div>	
+						</form></div>     			
+		   		</li>
+			</ul>
+		</div>
+	</div>
+<div class="contenedor_menu_web">
+<div class="inner">
+	    <div class="div_nav"><input class="checkbox_menu" type="checkbox" id="nav" /><label class="label_checkbox_menu" for="nav"></label>
+		<ul class="nav nav_ul"><!--
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/eltiempo">El temps</a><a class="enlace_menumovil_1er_nvl" href="/ca/eltiempo">El temps</a>
+<ul>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/eltiempo/observacion">Observació</a><a class="enlace_menumovil_2o_nvl" href="/ca/eltiempo/observacion">Observació</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/ultimosdatos"  >Avui i últims dies</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/sinobas"  >SINOBAS</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/radar"  >Radar</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/satelite/infra"  >Satèl·lits</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/rayos"  >Llamps</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/radiacion/radiacion"  >Radiació i ozó</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/contaminacionfondo"  >Contaminació de fons</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/camp_antarticas"  >Campanyes antàrtiques</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/tiempo_espacial"  >Temps espacial</a></li>
+
+</ul>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/eltiempo/prediccion">Predicció</a><a class="enlace_menumovil_2o_nvl" href="/ca/eltiempo/prediccion">Predicció</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/avisos"  >Avisos</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/municipios"  >Municipis</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/playas"  >Platges</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/montana"  >Muntanya</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/comunidades"  >CC. AA.</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/espana"  >Espanya</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/mundo"  >Ciutats del Món</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/maritima"  >Marítima</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/aeronautica"  >Aeronàutica</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/mapa_frentes"  >Mapes amb fronts</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/temperaturas"  >Temperatures Màx/Mín</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/modelosnumericos/harmonie_arome"  >Models numèrics</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/mapas_probabilisticos"  >Mapes probabilistics</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/radiacionuv"  >Radiació ultraviolada</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/calidad_del_aire"  >Composició química de l'atmosfera</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/incendios"  >Incendis</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/meteoruta"  >MeteoRuta</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/polvo_mineral"  >Intrusions de pols mineral saharià</a></li>
+
+</ul>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/serviciosclimaticos">Serveis climàtics</a><a class="enlace_menumovil_1er_nvl" href="/ca/serviciosclimaticos">Serveis climàtics</a>
+<ul>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/serviciosclimaticos/datosclimatologicos">Dades climatològiques</a><a class="enlace_menumovil_2o_nvl" href="/ca/serviciosclimaticos/datosclimatologicos">Dades climatològiques</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/valoresclimatologicos"  >Valors normals</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/efemerides_extremos"  >Valors extrems</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/superacion_umbrales"  >Superació de llindars</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/efemerides_sucesos"  >Efemèrides</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/fenologia"  >Fenologia</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/atlas_climatico"  >Atles climàtics</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/series-centenarias"  >Sèries centenàries</a></li>
+
+</ul>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/serviciosclimaticos/vigilancia_clima">Vigilància del clima</a><a class="enlace_menumovil_2o_nvl" href="/ca/serviciosclimaticos/vigilancia_clima">Vigilància del clima</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/resumenes"  >Resums climatològics</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/analisis_estacional"  >Anàlisi estacional</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/vigilancia_sequia"  >Vigilància de la sequera meteorològica</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/balancehidrico"  >Balanç hídric</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/resumen_precipitaciones"  >Resum de precipitacions</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/radiacion_ozono"  >Radiació i ozó</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/composicion-atmosferica-izana"  >Composició atmosfèrica en Izaña</a></li>
+
+</ul>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/prediccion_estacional"  >Predicció estacional</a>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/serviciosclimaticos/cambio_climat">Projeccions climàtiques per al segle XXI</a><a class="enlace_menumovil_2o_nvl" href="/ca/serviciosclimaticos/cambio_climat">Projeccions climàtiques per al segle XXI</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/cambio_climat/result_graficos"  >Resultats gràfics</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/cambio_climat/datos_diarios"  >Dades diàries</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/cambio_climat/datos_mensuales"  >Dades mensuals</a></li>
+
+</ul>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/apoyo_gestion_embalses"  >Suport a la gestió d'embassaments</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/monitor_sequia_met"  >Monitor de la sequera meteorològica</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/catalogo"  >Catàleg</a>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/conocenos">Coneix-nos</a><a class="enlace_menumovil_1er_nvl" href="/ca/conocenos">Coneix-nos</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/quienes_somos"  >Qui som</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/a_que_nos_dedicamos"  >A qué ens dediquem</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/recursos"  >Els nostres recursos</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/nuestra_historia"  >La nostra història</a>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/conocenos/congresos_y_conferencias">Congressos i conferències</a><a class="enlace_menumovil_2o_nvl" href="/ca/conocenos/congresos_y_conferencias">Congressos i conferències</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/congresos_y_conferencias/congresos"  >Anuncis</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/congresos_y_conferencias/reuniones"  >Reunions i conferències</a></li>
+
+</ul>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/colaboracion_institucional/convenios"  >Col·laboració institucional</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/cursos"  >Cursos</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/actividad_internacional"  >Activitat internacional</a>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/idi">R+D+i</a><a class="enlace_menumovil_1er_nvl" href="/ca/idi">R+D+i</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/idi/transformacion_digital"  >Transformació digital</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/prediccion"  >Predicció</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/clima"  >Clima </a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/medio_ambiente"  >Medi Ambient</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/tic"  >Innovació tecnològica</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/observacion"  >Observació</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/SAF_Nowcasting"  >SAF de Nowcasting</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/CIAI"  >CIAI</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/SDS-WAS"  >SDS-WAS</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/publicaciones_cientificas"  >Publicacions científiques</a>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/conocermas">Conèixer més</a><a class="enlace_menumovil_1er_nvl" href="/ca/conocermas">Conèixer més</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/aeronautica"  >Aeronàutica</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/maritima"  >Marítima</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/montana"  >Muntanya</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/archivo_documental_Arcimis"  >Arxiu documental Arcimis</a>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/conocermas/biblioteca">Biblioteca</a><a class="enlace_menumovil_2o_nvl" href="/ca/conocermas/biblioteca">Biblioteca</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/biblioteca/catalogo"  >Catàleg</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/biblioteca/boletines"  >Butlletí meteorològic</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/biblioteca/exposiciones"  >Exposicions</a></li>
+
+</ul>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/conocermas/recursos_en_linea">Recursos en linia</a><a class="enlace_menumovil_2o_nvl" href="/ca/conocermas/recursos_en_linea">Recursos en linia</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/recursos_en_linea/publicaciones_y_estudios"  >Publicacions i estudis</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/recursos_en_linea/calendarios"  >Calendari meteorològic</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/recursos_en_linea/elobservador"  >El Observador</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/recursos_en_linea/selecciones_del_blog"  >Seleccions del blog</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/recursos_en_linea/simposios_prediccion"  >Simposis de predicció</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/recursos_en_linea/modulos-tempo"  >Biblioteca de mòduls TEMPO</a></li>
+
+</ul>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/meteoeduca-medina"  >Meteoeduca - Medina</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/dia_meteorologico"  >Dia Meteorològic Mundial</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/modificacion_artificial_tiempo"  >Modificació artificial del temps</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/meteo_glosario_visual"  >MeteoGlosario Visual</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/borrascas/2022-2023"  >Borrasques amb gran impacte</a>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/empleo_y_becas">Ocupació pública i beques</a><a class="enlace_menumovil_1er_nvl" href="/ca/empleo_y_becas">Ocupació pública i beques</a>
+<ul>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/empleo_y_becas/empleo_publico">Ocupació pública</a><a class="enlace_menumovil_2o_nvl" href="/ca/empleo_y_becas/empleo_publico">Ocupació pública</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/empleo_publico/ingresar_en_la_aemet"  >Ingressar en AEMET</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/empleo_publico/oposiciones"  >Oposicions</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/empleo_publico/funcionarios_interinos"  >Funcionaris interins</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/empleo_publico/personal_laboral"  >Personal laboral</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/empleo_publico/condiciones_de_trabajo"  >Condicions de treball</a></li>
+
+</ul>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/concursos"  >Concursos</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/libre_designacion"  >Lliure designació</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/practicas"  >Pràctiques</a>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/empleo_y_becas/becas">Beques</a><a class="enlace_menumovil_2o_nvl" href="/ca/empleo_y_becas/becas">Beques</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/becas/informacion_de_interes"  >Informació d'interès</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/becas/convocatorias"  >Convocatòries</a></li>
+
+</ul>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/datos_abiertos">Dades obertes</a><a class="enlace_menumovil_1er_nvl" href="/ca/datos_abiertos">Dades obertes</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/datos_abiertos/catalogo"  >Catàleg. Pla RISP</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/datos_abiertos/AEMET_OpenData"  >AEMET OpenData</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/datos_abiertos/estadisticas"  >Estadístiques</a>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_3er_nvl" href="/ca/sede_electronica"  >Seu electrónica</a></li><!--
+
+
+
+--></ul></div>
+	  </div>	
+<script src="/js/doubletaptogo.min.js"></script>
+<script>
+	$(function(){
+		$('.div_nav li:has(ul)').doubleTapToGo();
+	});
+</script>
+
+
+</div>	
+</div>
+<div id="cabecera" class="cabecera_invierno">	
+	<div class="contenedor_cabecera_menu_iconos">
+		<div>	
+	 	<ul class="listado_avisos_cabecera">
+			<li>
+			 		<img class="icono_avisos_cabecera" src="/imagenes/png/iconos/ico-avisos.png" alt="METEOALERTA" title="METEOALERTA"/>
+			 		</li>
+				<li>				
+				<a href="/ca/eltiempo/prediccion/avisos?w=hoy" id="url-ver-avisos-cabecera" title="dj. 16 - Nivell d'avís màxim: Sense risc"><div class="texto_icon_aviso_cabecera color_blanco inline_block vertical_align_mid texto_aviso_cabecera_web">dj. 16</div>
+						<div class="tamano_icon_aviso_cabecera ico_redondeado_aviso_verde"><div class="texto_icon_aviso_cabecera texto_aviso_cabecera_movil">dj. 16</div></div></a></li>
+	          <li>				
+				<a href="/ca/eltiempo/prediccion/avisos?w=mna" id="url-ver-avisos-cabecera" title="dv. 17 - Nivell d'avís màxim: Risc."><div class="texto_icon_aviso_cabecera color_blanco inline_block vertical_align_mid texto_aviso_cabecera_web">dv. 17</div>
+						<div class="tamano_icon_aviso_cabecera ico_redondeado_aviso_amarillo"><div class="texto_icon_aviso_cabecera texto_aviso_cabecera_movil">dv. 17</div></div></a></li>
+	          <li>				
+				<a href="/ca/eltiempo/prediccion/avisos?w=pmna" id="url-ver-avisos-cabecera" title="ds. 18 - Nivell d'avís màxim: Risc."><div class="texto_icon_aviso_cabecera color_blanco inline_block vertical_align_mid texto_aviso_cabecera_web">ds. 18</div>
+						<div class="tamano_icon_aviso_cabecera ico_redondeado_aviso_amarillo"><div class="texto_icon_aviso_cabecera texto_aviso_cabecera_movil">ds. 18</div></div></a></li>
+	          </ul>
+
+	</div>
+<div id="id_ico_miweb" class="ico_fondo_redondeado icono_red_social_cabecera ico_miweb">
+			<a href="/ca/mi_web"><img  src="/imagenes/png/iconos/ico-miweb.png" alt="El meu Web" title="El meu Web" /></a></div>	
+  		<div class="ico_fondo_redondeado icono_red_social_cabecera ver_web ico_blog">
+			<a href="/ca/app/eltiempodeAEMET"><img  src="/imagenes/svg/ico-phone-c.svg" alt="Aplicació oficial 'El Tiempo de AEMET' (Android e iOS)" title="Aplicació oficial 'El Tiempo de AEMET' (Android e iOS)" /></a></div>					
+  		<div class="ico_fondo_redondeado icono_red_social_cabecera">
+			<a href="/ca/lineas_de_interes/atencion_al_ciudadano"><img  src="/imagenes/svg/ico-contacto.svg" alt="Contactar" title="Contactar" /></a></div>	   		
+  			<div class="ico_fondo_redondeado icono_red_social_cabecera">
+			<a href="/ca/mapaweb"><img  src="/imagenes/svg/ico-mapa-web.svg" alt="Mapa web" title="Mapa web" /></a></div>	   		
+		<div class="icono_red_social_cabecera ver_web">
+			<a href="/ca/redes_sociales/facebook/AEMET_facebook" class="red_social"><img  src="/imagenes/svg/Facebook-c.svg" alt="Segueix-nos a Facebook" title="Segueix-nos a Facebook" /></a></div>	 
+   		<div class="icono_red_social_cabecera ver_web">
+			<a href="/ca/redes_sociales/twitter/AEMET_twitter" class="red_social"><img  src="/imagenes/svg/Twitter-c.svg" alt="Segueix-nos a Twiter" title="Segueix-nos a Twiter" /></a></div>	  
+		<div class="ico_fondo_redondeado icono_red_social_cabecera ver_web ico_blog">
+			<a href="https://aemetblog.wordpress.com" target="_blank"><img  src="/imagenes/svg/ico-blog2-c.svg" alt="AEMET blog.es" title="AEMET blog.es" /></a></div>	 		
+   		<div class="icono_red_social_cabecera ver_web">			
+			<a href="/ca/redes_sociales/youtube/AEMET_YouTube" class="red_social"><img  src="/imagenes/svg/Youtube-c.svg" alt="Segueix-nos a YouTube" title="Segueix-nos a YouTube" /></a></div>	   		
+   		<div class="icono_red_social_cabecera ver_web">								
+			<a href="/ca/rss_info" class="red_social"><img src="/imagenes/svg/Rss-c.svg" alt="RSS" title="RSS"/></a></div>
+	</div>	
+	<div id="contenedor" class="contenedor fade">
+		<div>
+			<div class="rastro">
+	<div class="rastro_enlaces_gcd">
+			<a href="/ca/portada">Inici</a><span > &rsaquo; </span><a href="/ca/accesibilidad">Accessibilitat web</a></div>
+		</div>
+<a id="contenido"></a>
+
+<div class="contenedor_ayuda">
+  <div class="float_left">
+    <a href="/ca/accesibilidad#enlaces_asociados">
+    <img alt="Enllaços relacionats" src="/imagenes/gif/ico_enlaces_asociados_.gif" title="Enllaços relacionats" /></a>
+  </div>
+  <div class="txt_contenedor_ayuda">
+    <a href="/ca/accesibilidad#enlaces_asociados">Enllaços relacionats</a>
+  </div>
+</div>
+<div class="contenedor_contenido">		
+<h2 class="titulo">Declaraci&oacute;n de Accesibilidad
+</h2>
+<div class="contenedor_central">
+<!-- <IF> normalize-space(pagina/entradilla) != '' -->
+<!-- <FOR pagina/contenido> -->
+<!-- <IF> normalize-space(./texto/parrafo_con_formato) != '' and normalize-space(./imagen/nombre_imagen) = '' -->
+  <div class="texto_normal">
+<!-- <FOR ./texto/parrafo_con_formato/*> -->
+    <div>
+      <p style="text-align: justify;">
+      <strong>Introducci&oacute;n</strong></p>
+      <p class="dec-acc-p">
+      <span class="dec-acc-capital-article">La</span> 
+      <span class="dec-acc-site-name">Agencia Estatal de Meteorolog&iacute;a (AEMET)</span> se ha comprometido a hacer accesible su sitio web de conformidad con el 
+      <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-12699" target="_blank">Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos m&oacute;viles del sector p&uacute;blico</a>, por el que se traspone la 
+      <a href="https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-82305" target="_blank">Directiva (UE) 2016/2102 del Parlamento Europeo y del Consejo, de 26 de octubre de 2016</a>.</p>
+      <p class="dec-acc-p">La presente declaraci&oacute;n de accesibilidad se aplica al sitio web 
+      <a class="dec-acc-site-domain" href="/ca/">https://www.aemet.es/</a>, excluyendo los contenidos incrustados provenientes de otros dominios.&nbsp;</p>
+      <p style="text-align: justify;">
+      <strong>Situaci&oacute;n de cumplimiento</strong></p>
+      <p style="text-align: justify;">Este sitio web es&nbsp;parcialmente conforme&nbsp;con el&nbsp;Real Decreto 1112/2018&nbsp;debido a las excepciones y a la falta de conformidad de los aspectos que se indican a continuaci&oacute;n.</p>
+      <p style="text-align: justify;">
+      <strong>Contenido no accesible</strong></p>
+      <div id="dec-acc-site-compliance-detail">El contenido que se recoge a continuaci&oacute;n no es accesible por los siguientes motivos: 
+      <ol style="list-style-type: decimal">
+        <li>
+        <strong>Falta de conformidad con el Real Decreto 1112/2018</strong> 
+        <ol style="list-style-type: decimal">
+          <li>Algunas im&aacute;genes no est&aacute;n etiquetadas o tienen una alternativa textual gen&eacute;rica [requisito n&uacute;mero 9.1.1.1 de la norma UNE-EN 301549:2022 Contenido no textual].</li>
+          <li>Algunos v&iacute;deos grabados pueden no contener subt&iacute;tulos [requisito n&uacute;mero 9.1.2.2 de la norma UNE-EN 301549:2022 Subt&iacute;tulos (grabados)].</li>
+          <li>Algunos v&iacute;deos pregrabados en el sitio web no disponen de audiodescripci&oacute;n o medios alternativos [requisitos n&uacute;mero 9.1.2.3 y 9.1.2.5 de la norma UNE-EN 301549:2022 Audiodescripci&oacute;n o medios alternativos (grabado)].</li>
+          <li>En alguna p&aacute;gina la informaci&oacute;n, estructura y relaciones no est&aacute;n determinadas por software o no tienen alternativa como texto [requisito n&uacute;mero 9.1.3.1 de la UNE-EN 301549:2019 De informaci&oacute;n y relaciones].</li>
+          <li>En alg&uacute;n documento puede haber instrucciones especificadas solo por una caracter&iacute;stica sensorial como la forma, el color, el tama&ntilde;o, la ubicaci&oacute;n visual o el sonido [requisito n&uacute;mero 9.1.3.3 de la norma UNE-EN 301549:2022 Caracter&iacute;sticas sensoriales].</li>
+          <li>En alguna p&aacute;gina se ha utilizado el color como &uacute;nico medio visual para transmitir informaci&oacute;n, indicar una acci&oacute;n, provocar una respuesta o distinguir un elemento visual [requisito n&uacute;mero 9.1.4.1 de la norma UNE-EN 301549:2022 Uso del color].</li>
+          <li>En algunos textos no es posible anular el espaciado de texto especificado [requisito n&uacute;mero 9.1.4.12 de la norma UNE-EN 301549:2022 Espaciado del texto].</li>
+          <li>En alguna p&aacute;gina hay contenido que puede aparecer o desaparecer al pasar el puntero del rat&oacute;n por encima o recibir el foco del teclado [requisito n&uacute;mero 9.1.4.13 de la norma UNE-EN 301549:2022 Contenido se&ntilde;alado con el puntero o que tiene el foco].</li>
+          <li>En alguna p&aacute;gina algunos elementos no tienen el foco del teclado [requisito n&uacute;mero 9.2.1.1 de la norma UNE-EN 301549:2022 Teclado].</li>
+          <li>En alg&uacute;n documento la navegaci&oacute;n secuencial mediante el teclado podr&iacute;a no tener un orden consistente [requisito n&uacute;mero 9.2.4.3 de la norma UNE-EN 301549:2022 Orden del foco].</li>
+          <li>De manera puntual alg&uacute;n enlace podr&iacute;a no tener definido el prop&oacute;sito espec&iacute;fico de manera textual [requisito n&uacute;mero 9.2.4.4 de la norma UNE-EN 301549:2022 Prop&oacute;sito de los enlaces].</li>
+          <li>Hay contenidos o frases dentro de la p&aacute;gina cuyo idioma no puede determinarse por programa [requisito n&uacute;mero 9.3.1.2 de la norma UNE-EN 301549:2022 Idioma de las partes].</li>
+          <li>De manera puntual en alg&uacute;n formulario se podr&iacute;a producir alg&uacute;n cambio de contexto autom&aacute;tico sin advertir al usuario [requisito n&uacute;mero 9.3.3.2 de la norma UNE-EN 301549:2022 Etiquetas e instrucciones].</li>
+          <li>En alguna p&aacute;gina puede haber atributos e ID duplicados [requisito n&uacute;mero 9.4.1.1 de la norma UNE-EN 301549:2022 Procesamiento].</li>
+          <li>En alguna p&aacute;gina los componentes de interfaz de usuario como elementos de formulario, enlaces y componentes generados por script no siguen la estructura recomendada por las pautas de accesibilidad [requisito n&uacute;mero 9.4.1.2 de la norma UNE-EN 301549:2022 Nombre, funci&oacute;n, valor].</li>
+          <li>Algunas im&aacute;genes no est&aacute;n etiquetadas o tienen una alternativa textual gen&eacute;rica [requisito n&uacute;mero 10.1.1.1 de la norma UNE-EN 301549:2022 Contenido no textual].</li>
+          <li>En alg&uacute;n documento la informaci&oacute;n, estructura y relaciones no est&aacute;n determinadas por software o no tienen alternativa como texto [requisito n&uacute;mero 10.1.3.1 de la UNE-EN 301549:2019 De informaci&oacute;n y relaciones].</li>
+          <li>De manera puntual alg&uacute;n enlace podr&iacute;a no tener definido el prop&oacute;sito espec&iacute;fico de manera textual [requisito n&uacute;mero 10.2.4.4 de la norma UNE-EN 301549:2022 Prop&oacute;sito de los enlaces].</li>
+          <li>Hay contenidos o frases dentro de la p&aacute;gina cuyo idioma no puede determinarse por programa [requisito n&uacute;mero 10.3.1.2 de la norma UNE-EN 301549:2022 Idioma de las partes].</li>
+          <li>De manera puntual en alg&uacute;n formulario se podr&iacute;a producir alg&uacute;n cambio de contexto autom&aacute;tico sin advertir al usuario [requisito n&uacute;mero 10.3.3.2 de la norma UNE-EN 301549:2022 Etiquetas e instrucciones].</li>
+          <li>En alg&uacute;n documento puede haber atributos e ID duplicados [requisito n&uacute;mero 10.4.1.1 de la norma UNE-EN 301549:2022 Procesamiento].</li>
+          <li>En alg&uacute;n documento los componentes de interfaz de usuario como elementos de formulario, enlaces y componentes generados por script no siguen la estructura recomendada por las pautas de accesibilidad [requisito n&uacute;mero 10.4.1.2 de la norma UNE-EN 301549:2022 Nombre, funci&oacute;n, valor].</li>
+        </ol></li>
+        <li>
+        <strong>Carga desproporcionada</strong> 
+        <ol style="list-style-type: decimal">
+          <li>No aplica.</li>
+        </ol></li>
+        <li>
+        <strong>El contenido no entra dentro del &aacute;mbito de la legislaci&oacute;n aplicable</strong> 
+        <ol style="list-style-type: decimal">
+          <li>Pueden existir archivos de ofim&aacute;tica en PDF y otros formatos publicados antes del 20 de septiembre de 2018 que no cumplan en su totalidad todos los requisitos de accesibilidad. Aunque se ha procurado que la mayor&iacute;a de ellos s&iacute; lo cumplan.</li>
+          <li>Puede haber contenidos de terceros que no est&eacute;n desarrollados por la Agencia Estatal de Meteorolog&iacute;a (AEMET) o que no est&eacute;n bajo su control, como por ejemplo, archivos ofim&aacute;ticos.</li>
+          <li>Pueden existir archivos pregrabados publicados antes del 20 de septiembre de 2018 que no cumplan en su totalidad todos los requisitos de accesibilidad.&nbsp;</li>
+        </ol></li>
+      </ol></div>
+      <p style="text-align: justify;">
+      <strong>Preparaci&oacute;n de la presente declaraci&oacute;n de accesibilidad</strong></p>
+      <p style="text-align: justify;">La presente&nbsp;declaraci&oacute;n&nbsp;fue preparada el 02/12/2022.</p>
+      <p style="text-align: justify;">El m&eacute;todo empleado para preparar la declaraci&oacute;n ha sido una autoevaluaci&oacute;n con recursos externos el d&iacute;a 29/11/2022.</p>
+      <p style="text-align: justify;">&Uacute;ltima revisi&oacute;n&nbsp;de la declaraci&oacute;n: 02/12/2022.</p>
+      <p>
+      <strong>Observaciones y datos de contacto</strong></p>
+      <p>Puede realizar comunicaciones sobre requisitos de accesibilidad (art&iacute;culo 10.2.a del RD 1112/2018) como, por ejemplo:</p>
+      <ul style="list-style-type: disc; margin-left: 40px;">
+        <li>informar sobre cualquier posible incumplimiento por parte de este sitio web.</li>
+        <li>transmitir otras dificultades de acceso al contenido.</li>
+        <li>formular cualquier otra consulta o sugerencia de mejora relativa a la accesibilidad del sitio web a trav&eacute;s.</li>
+        <li>a trav&eacute;s del apartado de &quot; 
+        <span class="subrayado">
+        <a href="/ca/lineas_de_interes/atencion_al_ciudadano">Atenci&oacute;n al ciudadano</a></span> &quot; en este sitio web o llamando al tel&eacute;fono 060.</li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>Acorde al art&iacute;culo 10.2.b del RD 1112/2018, tambi&eacute;n puede presentar:</p>
+      <ul style="list-style-type: disc; margin-left: 40px;">
+        <li>Una queja relativa al cumplimiento de los requisitos del RD 1112/2018.</li>
+        <li>Una solicitud de informaci&oacute;n accesible relativa a: 
+        <ul style="list-style-type: circle; margin-left: 40px;">
+          <li>Contenidos que est&aacute;n excluidos del &aacute;mbito de aplicaci&oacute;n del RD 1112/2018 seg&uacute;n lo establecido por el art&iacute;culo 3, apartado 4.</li>
+          <li>Contenidos que est&aacute;n exentos del cumplimiento de los requisitos de accesibilidad por imponer una carga desproporcionada.</li>
+        </ul></li>
+      </ul>
+      <p>En la Solicitud de informaci&oacute;n accesible, se debe concretar, con toda claridad, los hechos, razones y petici&oacute;n que permitan constatar que se trata de una solicitud razonable y leg&iacute;tima.</p>
+      <p>Las solicitudes de informaci&oacute;n accesible y quejas se pueden presentar a trav&eacute;s del 
+      <a href="https://sede.aemet.gob.es/AEMET/es/GestionPeticiones/incidenciaIntro" target="_blank">formulario para presentar quejas y sugerencias</a>, as&iacute; como del resto de opciones recogidas en la Ley 39/ 2015, de 1 de octubre, del Procedimiento Administrativo Com&uacute;n de las Administraciones P&uacute;blicas.</p>
+      <p>Las comunicaciones, quejas y solicitudes de informaci&oacute;n accesible ser&aacute;n recibidas y tratadas por la Unidad Responsable de Accesibilidad - Gabinete T&eacute;cnico de la Subsecretar&iacute;a del Ministerio para la Transici&oacute;n Ecol&oacute;gica y el Reto Demogr&aacute;fico.</p>
+      <p>
+      <strong>Procedimiento de reclamaci&oacute;n</strong></p>
+      <p>Si una vez realizada una solicitud de informaci&oacute;n accesible o queja, &eacute;sta hubiera sido desestimada, no se estuviera de acuerdo con la decisi&oacute;n adoptada, o la respuesta no cumpliera los requisitos contemplados en el art&iacute;culo 12.5, la persona interesada podr&aacute; iniciar una reclamaci&oacute;n. Igualmente se podr&aacute; iniciar una reclamaci&oacute;n en el caso de que haya transcurrido el plazo de veinte d&iacute;as h&aacute;biles sin haber obtenido respuesta.</p>
+      <p>La reclamaci&oacute;n puede ser presentada trav&eacute;s del 
+      <a href="https://sede.aemet.gob.es/AEMET/es/GestionPeticiones/incidenciaIntro" target="_blank">formulario para presentar reclamaciones</a> de Agencia Estatal de Meteorolog&iacute;a (AEMET), as&iacute; como en el resto de opciones recogidas en la Ley 39/ 2015, de 1 de octubre, del Procedimiento Administrativo Com&uacute;n de las Administraciones P&uacute;blicas.</p>
+      <p>Las reclamaciones ser&aacute;n recibidas y tratadas por la Unidad Responsable de Accesibilidad - Gabinete T&eacute;cnico de la Subsecretar&iacute;a del Ministerio para la Transici&oacute;n Ecol&oacute;gica y el Reto Demogr&aacute;fico.&nbsp;</p>
+      <p style="text-align: justify;">
+      <strong>Contenido opcional</strong></p>
+      <p style="text-align: justify;">Los dos principios b&aacute;sicos del dise&ntilde;o accesible de sitios web son crear p&aacute;ginas que se presenten correctamente y ofrecer el contenido de manera comprensible para facilitar la navegaci&oacute;n por el sitio web.</p>
+      <p style="text-align: justify;">Un sitio web accesible es aqu&eacute;l cuyo contenido puede ser correctamente usado por el mayor n&uacute;mero posible de usuarios. Lo m&aacute;s importante para hacer un sitio web accesible es comprender que la gente accede a la Web de modos muy diferentes.</p>
+      <p style="text-align: justify;">Por tanto, un sitio web accesible deber&aacute; presentar la informaci&oacute;n de tal manera que los usuarios puedan acceder a ella independientemente del equipo f&iacute;sico y los programas que est&eacute;n usando, e independientemente de las capacidades f&iacute;sicas y sensoriales particulares&nbsp;que se disponga para interactuar con el ordenador.</p>
+      <p style="text-align: justify;">Este sitio web est&aacute; optimizado para los navegadores M.S. Internet Explorer 9.0 y o versiones superiores y las &uacute;ltimas versiones vigentes de FireFox, Safari, Opera, Google Chrome y Microsoft Edge, adem&aacute;s est&aacute; implementado con un dise&ntilde;o web adaptable&nbsp;o&nbsp;adaptativo (Responsive, conocido por las siglas&nbsp;RWD&nbsp;del ingl&eacute;s&nbsp;Responsive Web Design), que tiene como objetivo adaptar la apariencia de las&nbsp;p&aacute;ginas web&nbsp;al dispositivo que se est&eacute; utilizando para visualizarlas.</p>
+      <p style="text-align: justify;">Se incorporan una serie de&nbsp;atajos de teclado&nbsp;para facilitar la navegaci&oacute;n a trav&eacute;s del portal:</p>
+      <ul style="list-style-type: disc; margin-left: 40px;">
+        <li>Tecla de acceso c: Ir al contenido de la p&aacute;gina</li>
+        <li>Tecla de acceso 0: P&aacute;gina sobre accesibilidad</li>
+        <li>Tecla de acceso 1: P&aacute;gina de Inicio &quot;Aemet.es&quot;</li>
+        <li>Tecla de acceso 2: Mapa de la web</li>
+        <li>Tecla de acceso 3: Ayuda de la web</li>
+        <li>Tecla de acceso 4: Contactar con la AEMET</li>
+        <li>Tecla de acceso 5: Ir a la predicci&oacute;n por localidades</li>
+        <li>Tecla de acceso 6: Ir a la secci&oacute;n de avisos</li>
+      </ul>
+      <p style="text-align: justify;">&nbsp;</p>
+      <p style="text-align: justify;">Las combinaciones de teclas para usar estos atajos, dependiendo del navegador, son:</p>
+      <ul style="list-style-type: disc; margin-left: 40px;">
+        <li>Chrome:&nbsp;ALT + &quot;Tecla de acceso&quot; + INTRO</li>
+        <li>Internet Explorer: ALT + &quot;Tecla de acceso&quot; + INTRO</li>
+        <li>Firefox: ALT + MAY&Uacute;SCULAS + &quot;Tecla de acceso&quot;</li>
+        <li>&Oacute;pera: MAY&Uacute;SCULAS + ESC + &quot;Tecla de acceso&quot;</li>
+        <li>Safari: CTRL (ALT para Windows) + &quot;Tecla de acceso&quot;</li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>Es prop&oacute;sito de la Agencia Estatal de Meteorolog&iacute;a (AEMET) la mejora permanente de &nbsp;la&nbsp; accesibilidad y usabilidad de esta web.</p>
+    </div>
+    <p style="text-align: justify;">&nbsp;</p>
+  </div>
+<!-- <IF> normalize-space(./texto/parrafo_con_formato) = '' and normalize-space(./imagen/nombre_imagen) != '' -->
+<!-- <IF> normalize-space(./texto/parrafo_con_formato) != '' and normalize-space(./imagen/nombre_imagen) != '' -->
+<!-- <IF> normalize-space(./listado/titulo_listado) != '' -->
+</div>
+<div class="contenedor_central_izq contenedor_contenido marginbottom35px">
+  <h3 class="titulo">
+  <a id="enlaces_asociados" class="font_bold" name="enlaces_asociados">Enllaços relacionats:</a></h3>
+  <ul class="lincks">
+<!-- <FOR pagina/info_relacionada/enlaces_externos> -->
+<!-- <IF> normalize-space(./nombre_enlace) != '' -->
+<!-- <IF> not(starts-with(./link_enlace,'http')) -->
+    <li>
+      <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-12699" target="_blank" title="Enllaç associat">Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos m&oacute;viles del sector p&uacute;blico</a>
+    </li>
+<!-- <IF> normalize-space(./nombre_enlace) != '' -->
+<!-- <IF> not(starts-with(./link_enlace,'http')) -->
+    <li>
+      <a href="https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-82305" target="_blank" title="Enllaç associat">Directiva 2016/2102 del Parlamento Europeo y del Consejo (UE)</a>
+    </li>
+<!-- <IF> normalize-space(./nombre_enlace) != '' -->
+<!-- <IF> not(starts-with(./link_enlace,'http')) -->
+    <li>
+      <a href="/ca/app/eltiempodeAEMET/declaracion-accesibilidad-android" target="_blank" title="Enllaç associat">Declaraci&oacute;n de accesibilidad de la app &quot;El tiempo de AEMET&quot; - versi&oacute;n para Android</a>
+    </li>
+<!-- <IF> normalize-space(./nombre_enlace) != '' -->
+<!-- <IF> not(starts-with(./link_enlace,'http')) -->
+    <li>
+      <a href="/ca/app/eltiempodeAEMET/declaracion-accesibilidad-iOS" target="_blank" title="Enllaç associat">Declaraci&oacute;n de accesibilidad de la app &quot;El tiempo de AEMET&quot; - versi&oacute;n para iOS</a>
+    </li>
+  </ul>
+</div>
+<div class="contenedor_redes_sociales">
+
+	 <div class="icono_red_social_cabecera">
+  		<a href="mailto:?subject=&amp;body=:%20http%3A%2F%2Fwww.aemet.es" target="_blank" title="Email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&amp;body=' +  encodeURIComponent(document.URL)); return false;"><img src="/imagenes/png/redes_sociales/Email.png" alt="Email"/></a>
+  	</div>
+  	
+	<div class="like">
+  		<a class="message" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.aemet.es&amp;t=" title="Compartir a Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&amp;t=' + encodeURIComponent(document.URL)); return false;">
+  			<img class="vertical_align_mid" src="/imagenes/png/redes_sociales/Facebook.png" alt="Compartir a Facebook"/>
+  			<span class="fb_count vertical_align_mid">0</span>
+  		</a>
+  	</div>
+  	
+  	<div class="tweet">
+	  <a href="#" class="message vertical_align_mid" title="Compartir a Twitter" data-via="AEMET_Esp" data-lang="ca" data-hashtags="aemet"><img src="/imagenes/png/redes_sociales/Twitter.png" alt="Compartir a Twitter"/></a>
+    </div>
+
+  	<div class="icono_red_social_cabecera ver_movil">
+	  <a href="whatsapp://send?text=https://www.aemet.es/es/accesibilidad" class="message" target="_blank" title="Whatsapp">
+	  <img class="vertical_align_mid" src="/imagenes/png/redes_sociales/Whatsapp.png" alt="Whatsapp"/>
+	  </a>       		
+    </div>    
+  	
+	<div class="ico_fondo_redondeado icono_red_social_cabecera boton_red_soc_der">
+		<a id="link_img_imprimir" onkeypress="if(window.event.keyCode!=13)return false;javascript:window.open('/ca/-s:print/accesibilidad','_blank','location=yes,toolbar=no,menubar=no,personalbar=no,resizable=yes,scrollbars=yes,hotkeys=no,top=0,left=0,width=1000,height=600');return false;" onclick="javascript:window.open('/ca/-s:print/accesibilidad','Imprimir','location=yes,toolbar=no,menubar=no,personalbar=no,resizable=yes,scrollbars=yes,hotkeys=no,top=0,left=0,width=1000,height=600');return false;" target="_blank" href="/ca/-s:print/accesibilidad" rel="nofollow">
+			<img id="link2_imprimir" src="/imagenes/png/iconos/ico-impresora.png" alt="Versión para imprimir (se abrirá en una ventana nueva)" title="Versión para imprimir (se abrirá en una ventana nueva)"/>
+		</a>
+	</div>
+	
+
+
+<script type="text/javascript">
+	var API_URL = "http://cdn.api.twitter.com/1/urls/count.json",
+	TWEET_URL = "https://twitter.com/intent/tweet",
+	SEARCH_URL = "https://twitter.com/search";
+	
+	
+	$(".tweet").each(function() {
+		var elem = $(this);
+		
+		url = encodeURIComponent(elem.attr("data-url") || document.URL),
+		
+		text = document.title,
+		via = elem.find(".message").attr("data-via") || "";
+			 
+		elem.find(".message").attr({
+		    href: TWEET_URL + "?source=http%3A%2F%2Fwww.aemet.es&text=" + text + "&url=" + url + "&via=" + via,
+		    target: "_blank"
+		});
+	});
+</script>
+
+<script type="text/javascript">
+	var FB_API_URL = "http://api.facebook.com/restserver.php";
+	
+	
+	$(".like").each(function() {
+		var elem = $(this);
+		
+		url = encodeURIComponent(elem.attr("data-url") || document.URL),
+					
+		
+		$.getJSON(FB_API_URL +"?method=links.getStats&format=json&urls=" + url, function(data) {
+		    elem.find(".fb_count").html(data[0].total_count);
+		});
+	});
+</script>
+
+<script type="text/javascript">
+	var link1 = document.getElementById("link1_imprimir");
+	var link2 = document.getElementById("link2_imprimir");
+	if(link1 != null)
+	{
+		link1.innerHTML = "Imprimir";
+		link1.alt = "Imprimir (s'obrirà en una finestra nova)";
+		link1.title = "Imprimir (s'obrirà en una finestra nova)";
+	}
+	if(link2 != null)
+	{
+		link2.alt = "Imprimir (s'obrirà en una finestra nova)";
+		link2.title = "Imprimir (s'obrirà en una finestra nova)";
+	}
+</script>
+
+</div></div>
+
+</div>
+		</div>
+</div>
+<div class="contenedor_pie">
+		<div class="texto_copy">
+			&copy; AEMET. Autoritzat l'ús de la informació i la seua reproducció citant AEMET com a autora de la mateixa.</div>
+		<div class="texto_pie">
+			<ul>
+			 	<li><a href="/ca/nota_legal">Nota Legal</a></li>
+				<li class="barra_separadora">|</li>
+	    		<li><a href="/ca/accesibilidad">Accessibilitat Web</a></li>	
+				<li class="barra_separadora">|</li>		
+			 	<li>
+			 		<a href="/ca/enlaces">Enllaços</a></li>
+				<li class="barra_separadora">|</li>
+		   		<li>
+		   			<a href="/ca/ayuda">Ajuda web</a></li>	    						
+			</ul>
+		</div>
+		
+		<div class="pie_movil">
+		
+			<div class="ico_fondo_redondeado icono_red_social_cabecera ico_blog">
+				<a href="/ca/app/eltiempodeAEMET"><img  src="/imagenes/svg/ico-phone.svg" alt="Aplicació oficial 'El Tiempo de AEMET' (Android e iOS)" title="Aplicació oficial 'El Tiempo de AEMET' (Android e iOS)" /></a></div>	
+	   		
+			<div class="icono_red_social_cabecera">
+				<a href="/ca/redes_sociales/facebook/AEMET_facebook" class="red_social"><img  src="/imagenes/svg/Facebook.svg" alt="Segueix-nos a Facebook" title="Segueix-nos a Facebook" /></a></div>	  
+	   		<div class="icono_red_social_cabecera">
+				<a href="/ca/redes_sociales/twitter/AEMET_twitter" class="red_social"><img  src="/imagenes/svg/Twitter.svg" alt="Segueix-nos a Twiter" title="Segueix-nos a Twiter" /></a></div>	
+			<div class="ico_fondo_redondeado icono_red_social_cabecera ico_blog">
+				<a href="https://aemetblog.wordpress.com" target="_blank"><img  src="/imagenes/svg/ico-blog2.svg" alt="AEMET blog.es" title="AEMET blog.es" /></a></div>		   		
+	   		<div class="icono_red_social_cabecera">			
+				<a href="/ca/redes_sociales/youtube/AEMET_YouTube" class="red_social"><img  src="/imagenes/svg/Youtube.svg" alt="Segueix-nos a YouTube" title="Segueix-nos a YouTube" /></a></div>	   		
+	   		<div class="icono_red_social_cabecera">								
+				<a href="/ca/rss_info" class="red_social"><img src="/imagenes/svg/Rss.svg" alt="RSS" title="RSS"/></a></div>
+		</div>	
+		
+		<div class="pie_home">
+			<ul>
+				<li>
+					<a target="_blank" href="http://validator.w3.org/check?uri=referer" >
+						<img  src="/imagenes/png/certificados/w3c_xhtml10.png" title="Valida XHTML 1.0 Transicional. (s'obrirà en una finestra nova)" alt="Valida XHTML 1.0 Transicional. (s'obrirà en una finestra nova)"/>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3&amp;usermedium=all&amp;warning=no">
+						<img src="/imagenes/png/certificados/w3c_vcss.gif" title="Certificat W3C Valid CSS. (s'obrirà en una finestra nova)" alt="Certificat W3C Valid CSS. (s'obrirà en una finestra nova)" />
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="http://www.w3.org/WAI/WCAG1AA-Conformance"	>
+						<img src="/imagenes/png/certificados/w3c_waiAA.gif" title="Icona de conformitat amb el Nivell Doble-A de les directrius d'Accessibilitat per al Contingut Web 1.0 del W3C-WAI. (s'obrirà en una finestra nova)" alt="Icona de conformitat amb el Nivell Doble-A de les directrius d'Accessibilitat per al Contingut Web 1.0 del W3C-WAI. (s'obrirà en una finestra nova)"/>
+					</a>
+				</li>
+				
+				</ul>
+	
+			
+		</div>		
+	</div>
+<script type="text/javascript">
+	function aceptaCookies() 
+	{ 
+		 $.cookie("accept_cookies", "ok", { expires: 1095 ,path: '/' });
+	}
+	
+	var cookie_aemet = $.cookie("accept_cookies");
+	if(cookie_aemet == null)
+	{
+		 $("#popup_cookies").show();
+	}
+	
+    $(document).ready(function () {
+        	var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+        	if (isSafari){
+        		$aspectRatio = "xMidYMid meet";
+        		var svg = document.getElementsByClassName("svg")[0];
+        		if (svg != null && svg !='') {
+	        		svg=svg.setAttribute("preserveAspectRatio", $aspectRatio);
+	        		svg = document.getElementsByClassName("svg_maritima")[0];
+	        		svg=svg.setAttribute("preserveAspectRatio", $aspectRatio);
+	        		svg = document.getElementsByClassName("svg_satelite")[0];
+	        		svg=svg.setAttribute("preserveAspectRatio", $aspectRatio);
+	        		svg = document.getElementsByClassName("svg_alta_mar")[0];
+	        		svg=svg.setAttribute("preserveAspectRatio", $aspectRatio);
+        		}
+        	}
+    });
+
+	var cookie_miweb_existe = $.cookie("miweb_conf");
+	if(cookie_miweb_existe != null)
+	{
+		$("#id_ico_miweb").css('display', 'inline-block');
+	}
+	
+	 new WOW().init();
+	</script>
+</body>
+</html>

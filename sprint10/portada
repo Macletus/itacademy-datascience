@@ -1,0 +1,1376 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca" xml:lang="ca"><head>
+<meta name="description" content="Informació meteorològica i climatològica, predicció, avisos,  observació, anuncis, atenció al públic, divulgació i informació de l'Agència" />
+<meta name="keywords" content="AEMET,Estatal,Meteorologia,Espanya,Agència,Nacional,El Temps,Temps" />
+<meta name="author" content="Agència Estatal de Meteorología" />
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="title" content="Agència Estatal de Meteorologia - AEMET. Govern d'Espanya" />
+<meta name="DC.title" content="Agència Estatal de Meteorologia - AEMET. Govern d'Espanya" />
+<meta name="distribution" content="global" />
+
+<meta name="lang" content="ca" />
+<meta name="language" content="ca" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15" />
+
+<meta property="og:title" content="Agència Estatal de Meteorologia - AEMET. Govern d'Espanya"/>
+<meta property="og:image" content="https://www.aemet.es/imagenes/gif/logo_AEMET_og.gif"/>
+<meta name="application-name" content="Agència Estatal de Meteorologia - AEMET. Govern d'Espanya" />
+<meta name="msapplication-tooltip" content="Agència Estatal de Meteorologia - AEMET. Govern d'Espanya" />
+<meta name="msapplication-starturl" content="https://www.aemet.es/ca/portada" />
+<meta name="msapplication-navbutton-color" content="#4F86D9" />
+<meta name="msapplication-window" content="width=1024;height=768" /> 
+<meta name="msapplication-task"
+      content="name=Inici, Agència Estatal de Meteorología;
+      action-uri=https://www.aemet.es/ca/portada;
+      icon-uri=https://www.aemet.es/favicon.ico" />
+<meta name="msapplication-task"
+      content="name=El temps, Espanya;
+      action-uri=https://www.aemet.es/ca/eltiempo/prediccion/espana;
+      icon-uri=https://www.aemet.es/imagenes/ico/ico_municipios.ico" />
+<meta name="msapplication-task"
+      content="name=El temps, Municipis espanyols;
+      action-uri=https://www.aemet.es/ca/eltiempo/prediccion/municipios;
+      icon-uri=https://www.aemet.es/imagenes/ico/ico_municipios.ico" />
+<meta name="msapplication-task" 
+      content="name=Avisos;
+      action-uri=https://www.aemet.es/ca/eltiempo/prediccion/avisos;
+      icon-uri=https://www.aemet.es/imagenes/ico/ico_avisos.ico" />
+<meta name="msapplication-task" 
+      content="name=Informació;
+      action-uri=https://www.aemet.es/ca/noticias;
+      icon-uri=https://www.aemet.es/favicon.ico" />      
+<meta name="msapplication-task" 
+      content="name=Avui i últims dies;
+      action-uri=https://www.aemet.es/ca/eltiempo/observacion/ultimosdatos;
+      icon-uri=https://www.aemet.es/favicon.ico" />
+<title>Agència Estatal de Meteorologia - AEMET. Govern d'Espanya</title>
+<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css' /> -->
+<link rel="stylesheet" type="text/css" href="/css/fonts.css"  />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/estilos_202010261542.css" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/printer_friendly_202010261542.css" />
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui.css"  />
+<link rel="stylesheet" type="text/css" href="/css/animate.css"  />
+<link rel="stylesheet" type="text/css" href="/css/portlets/portlets.css"  />
+<!-- Important Owl stylesheet -->
+<link rel="stylesheet" type="text/css" href="/css/owl-carousel/owl.carousel.css" />
+<!-- Default Theme -->
+<link rel="stylesheet" type="text/css" href="/css/owl-carousel/owl.theme.css" />
+<!-- MediaElement -->
+<link rel="stylesheet" type="text/css" href="/css/mediaelements/mediaelementplayer.min.css" />
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+<!-- Include js owl plugin -->
+<script type="text/javascript" src="/js/owl-carousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/js/wow/wow.min.js" ></script>
+<link rel="bookmark" href="https://www.aemet.es/ca/portada" />
+<link rel="canonical" href="https://www.aemet.es/ca/portada" />
+<link rel="help" href="/ca/ayuda" />
+<link rel="copyright" href="/ca/nota_legal" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png"/>
+<link rel="alternate" type="text/html" href="https://www.aemet.es/es/portada" hreflang="es" lang="es" />
+<link rel="alternate" type="text/html" href="https://www.aemet.es/ca/portada" hreflang="ca" lang="ca" />
+<link rel="alternate" type="text/html" href="https://www.aemet.es/gl/portada" hreflang="gl" lang="gl" />
+<link rel="alternate" type="text/html" href="https://www.aemet.es/va/portada" hreflang="va" lang="va" />
+<link rel="alternate" type="text/html" href="https://www.aemet.es/eu/portada" hreflang="eu" lang="eu" />
+<link rel="alternate" type="text/html" href="https://www.aemet.es/en/portada" hreflang="en" lang="en" />
+<link rel="alternate" type="text/html" href="https://www.aemet.es/fr/portada" hreflang="fr" lang="fr" />
+<link rel="alternate" title="RSS AEMET " href="/ca/rss/ca/noticias.rss" type="application/rss+xml" />
+</head>
+<body>
+<div id="capa_global"></div>
+<div id="popup_cookies" class="pop_up_cookies">
+	<div>
+		<div class="padding_popup contenido_popup_cookies">
+			<div class="marginbottom15px">
+			<div title="Aceptar cookies" class="boton_cookies" onclick="aceptaCookies();$('#popup_cookies').remove();">Aceptar cookies</div>
+			<div class="texto_entradilla">Información sobre uso de cookies</div>
+			</div>
+			<div class="notas_tabla">Este sitio web utiliza cookies propias y de terceros para mejorar la experiencia de navegación, y ofrecer contenidos y funcionalidades de interés. Para más información sobre las cookies utilizadas consulta nuestra&nbsp;
+				<div class="enlace_informacion inline_block">
+				<a class="enlace_ver_politica_cookies" href="/ca/politica_cookies">política de cookies</a>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+<div class="fondo_cabecera">
+	<div class="cabecera_transp">
+		<div class="fuera">
+			<h1>
+				Agència Estatal de Meteorología</h1>
+			<ul>
+			 	<li>
+			 		<a href="#contenido" accesskey="c">C&nbsp;-&nbsp;Anar al contingut</a>
+			 	</li>
+	    		<li>
+	    			<a href="/ca/accesibilidad" accesskey="0">0&nbsp;-&nbsp;Accessibilitat Web</a></li>
+	    		<li>
+	    			<a href="/ca/portada" accesskey="1">1&nbsp;-&nbsp;Inici</a></li>    		
+	    		<li>
+	    			<a href="/ca/mapaweb" accesskey="2">2&nbsp;-&nbsp;Mapa web</a></li>
+		   		<li>
+		   			<a href="/ca/ayuda" accesskey="3">3&nbsp;-&nbsp;Ajuda web</a></li>    		
+		   		<li>
+	<a href="/ca/contactar" accesskey="4">4&nbsp;-&nbsp;Contactar</a></li>
+		   		<li>
+		   			<a href="/ca/eltiempo/prediccion/municipios" accesskey="5">5&nbsp;-&nbsp;Municipis</a></li>
+		   		<li>
+		   			<a href="/ca/eltiempo/prediccion/avisos" accesskey="6">6&nbsp;-&nbsp;Avisos</a></li>	   			   				  	
+			</ul>
+		</div>
+		<div class="logo">
+			<div class="logo1">
+			 	<a aria-label="Agència Estatal de Meteorología" class="enlace_aemet" title="Agència Estatal de Meteorología" href="/ca/portada"></a> 
+			    <a aria-label="Ministerio para la Transición Ecológica y el Reto Demográfico.&nbsp;(s'obrirà en una finestra nova)" target="_blank" class="enlace_magrama" title="Ministerio para la Transición Ecológica y el Reto Demográfico.&nbsp;(s'obrirà en una finestra nova)" href="https://www.miteco.gob.es"></a>
+				<img src="/ca/imagen-logo1" alt="Agència Estatal de Meteorología" title="Agència Estatal de Meteorología"/>
+			</div>
+			<div class="logo2">
+				<a aria-label="Pla de recuperació, Transformació i Resiliència.&nbsp;(s'obrirà en una finestra nova)" target="_blank" class="enlace_moncloa" title="Pla de recuperació, Transformació i Resiliència.&nbsp;(s'obrirà en una finestra nova)" href="https://planderecuperacion.gob.es/"></a>
+			 		<img src="/ca/imagen-logo2" alt="Pla de recuperació, Transformació i Resiliència" title="Pla de recuperació, Transformació i Resiliència"/>
+			 	</div>
+		</div>
+		<div class="menu_cabecera">
+			<ul>	
+	    		<li>
+					<div class="contenedor_idiomas_mini">
+						<input type="checkbox" id="idiomas_mini" class="checkbox_oculto_idiomas" /><label for="idiomas_mini" class="nav_select_idiomas">					
+						
+							ca
+							<span class="arrow-down_white margin_combo_mini_idioma">&nbsp;</span></label>
+					   <ul class="nav_idiomas">
+							<li><a class="separador_idiomas" lang="es" hreflang="es" href="https://www.aemet.es/es/portada" title="Español">es</a></li>
+							<li><a class="separador_idiomas" lang="ca" hreflang="ca" href="https://www.aemet.es/ca/portada" title="Català">ca</a></li>
+							<li><a class="separador_idiomas" lang="gl" hreflang="gl" href="https://www.aemet.es/gl/portada" title="Galego">gl</a></li>
+							<li><a class="separador_idiomas" lang="va" hreflang="va" href="https://www.aemet.es/va/portada" title="Valencià">va</a></li>
+							<li><a class="separador_idiomas" lang="eu" hreflang="eu" href="https://www.aemet.es/eu/portada" title="Euskara">eu</a></li>
+							<li><a class="separador_idiomas" lang="en" hreflang="en" href="https://www.aemet.es/en/portada" title="English">en</a></li>
+							<li><a class="separador_idiomas" lang="fr" hreflang="fr" href="https://www.aemet.es/fr/portada" title="Français">fr</a></li>					
+					   </ul>
+					</div>	    		
+					<div class="contenedor_idiomas">
+						<input type="checkbox" id="idiomas" class="checkbox_oculto_idiomas" /><label for="idiomas" class="nav_select_idiomas">					
+						Benvinguts<span class="arrow-down_white">&nbsp;</span></label>
+					   <ul class="nav_idiomas">
+							<li><a class="separador_idiomas" lang="es" hreflang="es" href="https://www.aemet.es/es/portada" title="Español">Bienvenido</a></li>
+							<li><a class="separador_idiomas" lang="ca" hreflang="ca" href="https://www.aemet.es/ca/portada" title="Català">Benvinguts</a></li>
+							<li><a class="separador_idiomas" lang="gl" hreflang="gl" href="https://www.aemet.es/gl/portada" title="Galego">Benvidos</a></li>
+							<li><a class="separador_idiomas" lang="va" hreflang="va" href="https://www.aemet.es/va/portada" title="Valencià">Benvinguts</a></li>
+							<li><a class="separador_idiomas" lang="eu" hreflang="eu" href="https://www.aemet.es/eu/portada" title="Euskara">Ongi etorri</a></li>
+							<li><a class="separador_idiomas" lang="en" hreflang="en" href="https://www.aemet.es/en/portada" title="English">Welcome</a></li>
+							<li><a class="separador_idiomas" lang="fr" hreflang="fr" href="https://www.aemet.es/fr/portada" title="Français">Bienvenue</a></li>					
+					   </ul>
+					</div>
+	    		</li>
+<!-- 				<li class="barra_separadora">|</li>			 -->
+	    		<li>
+	    			<input type="checkbox" id="buscador_oculto" class="checkbox_oculto_buscador" /><label for="buscador_oculto" class="nav_select_buscador"></label>
+					<div class="caja_contenedor_busqueda icono_red_social_cabecera">	
+						<form id="FrmBuscador" method="get" action="/ca/buscador"><div class="contenedor_buscador">									
+								<input class="texto_buscador" value="Introduïu text" aria-label ="Introduïu text" name="str" id="buscar" onfocus="this.value=(this.value=='Introduïu text') ? '' : this.value;" onblur="this.value=(this.value=='') ? 'Introduïu text' : this.value;"/>
+								<input type="hidden" name="modo" value="and" /><input type="hidden" name="orden" value="n" /><input type="hidden" name="tipo" value="sta" /><input type="submit" value=" " class="boton_buscar_cabecera" title="Cercar" alt="Cercar" /></div>	
+						</form></div>     			
+		   		</li>
+			</ul>
+		</div>
+	</div>
+<div class="contenedor_menu_web">
+<div class="inner">
+	    <div class="div_nav"><input class="checkbox_menu" type="checkbox" id="nav" /><label class="label_checkbox_menu" for="nav"></label>
+		<ul class="nav nav_ul"><!--
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/eltiempo">El temps</a><a class="enlace_menumovil_1er_nvl" href="/ca/eltiempo">El temps</a>
+<ul>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/eltiempo/observacion">Observació</a><a class="enlace_menumovil_2o_nvl" href="/ca/eltiempo/observacion">Observació</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/ultimosdatos"  >Avui i últims dies</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/sinobas"  >SINOBAS</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/radar"  >Radar</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/satelite/infra"  >Satèl·lits</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/rayos"  >Llamps</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/radiacion/radiacion"  >Radiació i ozó</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/contaminacionfondo"  >Contaminació de fons</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/camp_antarticas"  >Campanyes antàrtiques</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/observacion/tiempo_espacial"  >Temps espacial</a></li>
+
+</ul>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/eltiempo/prediccion">Predicció</a><a class="enlace_menumovil_2o_nvl" href="/ca/eltiempo/prediccion">Predicció</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/avisos"  >Avisos</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/municipios"  >Municipis</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/playas"  >Platges</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/montana"  >Muntanya</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/comunidades"  >CC. AA.</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/espana"  >Espanya</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/mundo"  >Ciutats del Món</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/maritima"  >Marítima</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/aeronautica"  >Aeronàutica</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/mapa_frentes"  >Mapes amb fronts</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/temperaturas"  >Temperatures Màx/Mín</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/modelosnumericos/harmonie_arome"  >Models numèrics</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/mapas_probabilisticos"  >Mapes probabilistics</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/radiacionuv"  >Radiació ultraviolada</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/calidad_del_aire"  >Composició química de l'atmosfera</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/incendios"  >Incendis</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/meteoruta"  >MeteoRuta</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/eltiempo/prediccion/polvo_mineral"  >Intrusions de pols mineral saharià</a></li>
+
+</ul>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/serviciosclimaticos">Serveis climàtics</a><a class="enlace_menumovil_1er_nvl" href="/ca/serviciosclimaticos">Serveis climàtics</a>
+<ul>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/serviciosclimaticos/datosclimatologicos">Dades climatològiques</a><a class="enlace_menumovil_2o_nvl" href="/ca/serviciosclimaticos/datosclimatologicos">Dades climatològiques</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/valoresclimatologicos"  >Valors normals</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/efemerides_extremos"  >Valors extrems</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/superacion_umbrales"  >Superació de llindars</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/efemerides_sucesos"  >Efemèrides</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/fenologia"  >Fenologia</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/atlas_climatico"  >Atles climàtics</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/datosclimatologicos/series-centenarias"  >Sèries centenàries</a></li>
+
+</ul>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/serviciosclimaticos/vigilancia_clima">Vigilància del clima</a><a class="enlace_menumovil_2o_nvl" href="/ca/serviciosclimaticos/vigilancia_clima">Vigilància del clima</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/resumenes"  >Resums climatològics</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/analisis_estacional"  >Anàlisi estacional</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/vigilancia_sequia"  >Vigilància de la sequera meteorològica</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/balancehidrico"  >Balanç hídric</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/resumen_precipitaciones"  >Resum de precipitacions</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/radiacion_ozono"  >Radiació i ozó</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/vigilancia_clima/composicion-atmosferica-izana"  >Composició atmosfèrica en Izaña</a></li>
+
+</ul>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/prediccion_estacional"  >Predicció estacional</a>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/serviciosclimaticos/cambio_climat">Projeccions climàtiques per al segle XXI</a><a class="enlace_menumovil_2o_nvl" href="/ca/serviciosclimaticos/cambio_climat">Projeccions climàtiques per al segle XXI</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/cambio_climat/result_graficos"  >Resultats gràfics</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/cambio_climat/datos_diarios"  >Dades diàries</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/cambio_climat/datos_mensuales"  >Dades mensuals</a></li>
+
+</ul>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/apoyo_gestion_embalses"  >Suport a la gestió d'embassaments</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/monitor_sequia_met"  >Monitor de la sequera meteorològica</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/serviciosclimaticos/catalogo"  >Catàleg</a>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/conocenos">Coneix-nos</a><a class="enlace_menumovil_1er_nvl" href="/ca/conocenos">Coneix-nos</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/quienes_somos"  >Qui som</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/a_que_nos_dedicamos"  >A qué ens dediquem</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/recursos"  >Els nostres recursos</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/nuestra_historia"  >La nostra història</a>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/conocenos/congresos_y_conferencias">Congressos i conferències</a><a class="enlace_menumovil_2o_nvl" href="/ca/conocenos/congresos_y_conferencias">Congressos i conferències</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/congresos_y_conferencias/congresos"  >Anuncis</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/congresos_y_conferencias/reuniones"  >Reunions i conferències</a></li>
+
+</ul>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/colaboracion_institucional/convenios"  >Col·laboració institucional</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/cursos"  >Cursos</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocenos/actividad_internacional"  >Activitat internacional</a>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/idi">R+D+i</a><a class="enlace_menumovil_1er_nvl" href="/ca/idi">R+D+i</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/idi/transformacion_digital"  >Transformació digital</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/prediccion"  >Predicció</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/clima"  >Clima </a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/medio_ambiente"  >Medi Ambient</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/tic"  >Innovació tecnològica</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/observacion"  >Observació</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/SAF_Nowcasting"  >SAF de Nowcasting</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/CIAI"  >CIAI</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/SDS-WAS"  >SDS-WAS</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/idi/publicaciones_cientificas"  >Publicacions científiques</a>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/conocermas">Conèixer més</a><a class="enlace_menumovil_1er_nvl" href="/ca/conocermas">Conèixer més</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/aeronautica"  >Aeronàutica</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/maritima"  >Marítima</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/montana"  >Muntanya</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/archivo_documental_Arcimis"  >Arxiu documental Arcimis</a>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/conocermas/biblioteca">Biblioteca</a><a class="enlace_menumovil_2o_nvl" href="/ca/conocermas/biblioteca">Biblioteca</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/biblioteca/catalogo"  >Catàleg</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/biblioteca/boletines"  >Butlletí meteorològic</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/biblioteca/exposiciones"  >Exposicions</a></li>
+
+</ul>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/conocermas/recursos_en_linea">Recursos en linia</a><a class="enlace_menumovil_2o_nvl" href="/ca/conocermas/recursos_en_linea">Recursos en linia</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/recursos_en_linea/publicaciones_y_estudios"  >Publicacions i estudis</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/recursos_en_linea/calendarios"  >Calendari meteorològic</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/recursos_en_linea/elobservador"  >El Observador</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/recursos_en_linea/selecciones_del_blog"  >Seleccions del blog</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/recursos_en_linea/simposios_prediccion"  >Simposis de predicció</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/recursos_en_linea/modulos-tempo"  >Biblioteca de mòduls TEMPO</a></li>
+
+</ul>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/meteoeduca-medina"  >Meteoeduca - Medina</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/dia_meteorologico"  >Dia Meteorològic Mundial</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/modificacion_artificial_tiempo"  >Modificació artificial del temps</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/meteo_glosario_visual"  >MeteoGlosario Visual</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/conocermas/borrascas/2022-2023"  >Borrasques amb gran impacte</a>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/empleo_y_becas">Ocupació pública i beques</a><a class="enlace_menumovil_1er_nvl" href="/ca/empleo_y_becas">Ocupació pública i beques</a>
+<ul>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/empleo_y_becas/empleo_publico">Ocupació pública</a><a class="enlace_menumovil_2o_nvl" href="/ca/empleo_y_becas/empleo_publico">Ocupació pública</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/empleo_publico/ingresar_en_la_aemet"  >Ingressar en AEMET</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/empleo_publico/oposiciones"  >Oposicions</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/empleo_publico/funcionarios_interinos"  >Funcionaris interins</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/empleo_publico/personal_laboral"  >Personal laboral</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/empleo_publico/condiciones_de_trabajo"  >Condicions de treball</a></li>
+
+</ul>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/concursos"  >Concursos</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/libre_designacion"  >Lliure designació</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/practicas"  >Pràctiques</a>
+</li>
+<li class="menu_segundo_nivel"><a class="enlace_menuweb_2o_nvl" href="/ca/empleo_y_becas/becas">Beques</a><a class="enlace_menumovil_2o_nvl" href="/ca/empleo_y_becas/becas">Beques</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/becas/informacion_de_interes"  >Informació d'interès</a></li>
+
+<li><a class="enlace_3er_nvl" href="/ca/empleo_y_becas/becas/convocatorias"  >Convocatòries</a></li>
+
+</ul>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_menuweb_1er_nvl" href="/ca/datos_abiertos">Dades obertes</a><a class="enlace_menumovil_1er_nvl" href="/ca/datos_abiertos">Dades obertes</a>
+<ul>
+<li><a class="enlace_3er_nvl" href="/ca/datos_abiertos/catalogo"  >Catàleg. Pla RISP</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/datos_abiertos/AEMET_OpenData"  >AEMET OpenData</a>
+</li>
+<li><a class="enlace_3er_nvl" href="/ca/datos_abiertos/estadisticas"  >Estadístiques</a>
+</li>
+</ul>
+</li><!--
+
+
+
+
+--><li><a class="enlace_3er_nvl" href="/ca/sede_electronica"  >Seu electrónica</a></li><!--
+
+
+
+--></ul></div>
+	  </div>	
+<script src="/js/doubletaptogo.min.js"></script>
+<script>
+	$(function(){
+		$('.div_nav li:has(ul)').doubleTapToGo();
+	});
+</script>
+
+
+</div>	
+</div>
+<div id="cabecera" class="cabecera_invierno">	
+	<div class="contenedor_cabecera_menu_iconos">
+		<div>	
+	 	<ul class="listado_avisos_cabecera">
+			<li>
+			 		<img class="icono_avisos_cabecera" src="/imagenes/png/iconos/ico-avisos.png" alt="METEOALERTA" title="METEOALERTA"/>
+			 		</li>
+				<li>				
+				<a href="/ca/eltiempo/prediccion/avisos?w=hoy" id="url-ver-avisos-cabecera" title="dj. 16 - Nivell d'avís màxim: Sense risc"><div class="texto_icon_aviso_cabecera color_blanco inline_block vertical_align_mid texto_aviso_cabecera_web">dj. 16</div>
+						<div class="tamano_icon_aviso_cabecera ico_redondeado_aviso_verde"><div class="texto_icon_aviso_cabecera texto_aviso_cabecera_movil">dj. 16</div></div></a></li>
+	          <li>				
+				<a href="/ca/eltiempo/prediccion/avisos?w=mna" id="url-ver-avisos-cabecera" title="dv. 17 - Nivell d'avís màxim: Risc."><div class="texto_icon_aviso_cabecera color_blanco inline_block vertical_align_mid texto_aviso_cabecera_web">dv. 17</div>
+						<div class="tamano_icon_aviso_cabecera ico_redondeado_aviso_amarillo"><div class="texto_icon_aviso_cabecera texto_aviso_cabecera_movil">dv. 17</div></div></a></li>
+	          <li>				
+				<a href="/ca/eltiempo/prediccion/avisos?w=pmna" id="url-ver-avisos-cabecera" title="ds. 18 - Nivell d'avís màxim: Risc."><div class="texto_icon_aviso_cabecera color_blanco inline_block vertical_align_mid texto_aviso_cabecera_web">ds. 18</div>
+						<div class="tamano_icon_aviso_cabecera ico_redondeado_aviso_amarillo"><div class="texto_icon_aviso_cabecera texto_aviso_cabecera_movil">ds. 18</div></div></a></li>
+	          </ul>
+
+	</div>
+<div id="id_ico_miweb" class="ico_fondo_redondeado icono_red_social_cabecera ico_miweb">
+			<a href="/ca/mi_web"><img  src="/imagenes/png/iconos/ico-miweb.png" alt="El meu Web" title="El meu Web" /></a></div>	
+  		<div class="ico_fondo_redondeado icono_red_social_cabecera ver_web ico_blog">
+			<a href="/ca/app/eltiempodeAEMET"><img  src="/imagenes/svg/ico-phone-c.svg" alt="Aplicació oficial 'El Tiempo de AEMET' (Android e iOS)" title="Aplicació oficial 'El Tiempo de AEMET' (Android e iOS)" /></a></div>					
+  		<div class="ico_fondo_redondeado icono_red_social_cabecera">
+			<a href="/ca/lineas_de_interes/atencion_al_ciudadano"><img  src="/imagenes/svg/ico-contacto.svg" alt="Contactar" title="Contactar" /></a></div>	   		
+  			<div class="ico_fondo_redondeado icono_red_social_cabecera">
+			<a href="/ca/mapaweb"><img  src="/imagenes/svg/ico-mapa-web.svg" alt="Mapa web" title="Mapa web" /></a></div>	   		
+		<div class="icono_red_social_cabecera ver_web">
+			<a href="/ca/redes_sociales/facebook/AEMET_facebook" class="red_social"><img  src="/imagenes/svg/Facebook-c.svg" alt="Segueix-nos a Facebook" title="Segueix-nos a Facebook" /></a></div>	 
+   		<div class="icono_red_social_cabecera ver_web">
+			<a href="/ca/redes_sociales/twitter/AEMET_twitter" class="red_social"><img  src="/imagenes/svg/Twitter-c.svg" alt="Segueix-nos a Twiter" title="Segueix-nos a Twiter" /></a></div>	  
+		<div class="ico_fondo_redondeado icono_red_social_cabecera ver_web ico_blog">
+			<a href="https://aemetblog.wordpress.com" target="_blank"><img  src="/imagenes/svg/ico-blog2-c.svg" alt="AEMET blog.es" title="AEMET blog.es" /></a></div>	 		
+   		<div class="icono_red_social_cabecera ver_web">			
+			<a href="/ca/redes_sociales/youtube/AEMET_YouTube" class="red_social"><img  src="/imagenes/svg/Youtube-c.svg" alt="Segueix-nos a YouTube" title="Segueix-nos a YouTube" /></a></div>	   		
+   		<div class="icono_red_social_cabecera ver_web">								
+			<a href="/ca/rss_info" class="red_social"><img src="/imagenes/svg/Rss-c.svg" alt="RSS" title="RSS"/></a></div>
+	</div>	
+	<div id="contenedor" class="contenedor fade">
+		<div>
+			<a id="contenido"></a>
+<div style="padding: 3px;">
+<div id="lineas-de-interes" class="owl-carousel owl-theme">
+	<div class="item item_especial">
+  <a href="/ca/lineas_de_interes/miweb" title="El meu Web">
+  <img alt="El meu Web" src="/imagenes_gcd/lineas_de_interes/indice/ico_miweb.png" title="El meu Web" />  
+  <span>El meu Web</span></a>
+</div>
+<div class="item item_par">
+  <a href="/ca/lineas_de_interes/atencion_al_ciudadano" title="Atenci&oacute; al ciutad&agrave;">
+  <img alt="Atenci&oacute; al ciutad&agrave;" src="/imagenes_gcd/lineas_de_interes/indice/ico_att_ciudadano.png" title="Atenci&oacute; al ciutad&agrave;" />  
+  <span>Atenci&oacute; al ciutad&agrave;</span></a>
+</div>
+<div class="item item_impar">
+  <a href="/ca/lineas_de_interes/redes_sociales" title="Xarxes socials">
+  <img alt="Xarxes socials" src="/imagenes_gcd/lineas_de_interes/indice/ico_redes_sociales.png" title="Xarxes socials" />  
+  <span>Xarxes socials</span></a>
+</div>
+<div class="item item_par">
+  <a href="/ca/lineas_de_interes/meteoalerta" title="Meteoalerta: Avisos">
+  <img alt="Meteoalerta: Avisos" src="/imagenes_gcd/lineas_de_interes/indice/ico_meteoalerta.png" title="Meteoalerta: Avisos" />  
+  <span>Meteoalerta: Avisos</span></a>
+</div>
+<div class="item item_impar">
+  <a href="/ca/lineas_de_interes/prevencion_efectos_altas_temperaturas" title="Efectes altes temperatures">
+  <img alt="Efectes altes temperatures" src="/imagenes_gcd/lineas_de_interes/ico-altas-temperaturas.png" title="Efectes altes temperatures" />  
+  <span>Efectes altes temperatures</span></a>
+</div>
+<div class="item item_par">
+  <a href="/ca/lineas_de_interes/tiempo_espacial" title="Temps espacial">
+  <img alt="Temps espacial" src="/imagenes_gcd/lineas_de_interes/ico_tiempo_espacial_52x44.png" title="Temps espacial" />  
+  <span>Temps espacial</span></a>
+</div>
+<div class="item item_impar">
+  <a href="/ca/lineas_de_interes/apps" title="APP">
+  <img alt="APP" src="/imagenes_gcd/lineas_de_interes/indice/ico_app_aemet.png" title="APP" />  
+  <span>APP</span></a>
+</div>
+<div class="item item_par">
+  <a href="/ca/lineas_de_interes/datos_y_estadistica" title="Dades i estadistiques">
+  <img alt="Dades i estadistiques" src="/imagenes_gcd/lineas_de_interes/indice/ico_datos.png" title="Dades i estadistiques" />  
+  <span>Dades i estadistiques</span></a>
+</div>
+<div class="item item_impar">
+  <a href="/ca/lineas_de_interes/centro_de_documentacion" title="Centre de documentaci&oacute;">
+  <img alt="Centre de documentaci&oacute;" src="/imagenes_gcd/lineas_de_interes/indice/ico_documentacion.png" title="Centre de documentaci&oacute;" />  
+  <span>Centre de documentaci&oacute;</span></a>
+</div>
+<div class="item item_par">
+  <a href="/ca/lineas_de_interes/por_sectores" title="Per sectors">
+  <img alt="Per sectors" src="/imagenes_gcd/lineas_de_interes/indice/ico_estrategico_porsectores.png" title="Per sectors" />  
+  <span>Per sectors</span></a>
+</div>
+<div class="item item_impar">
+  <a href="/ca/lineas_de_interes/servicios_climaticos" title="Serveis clim&agrave;tics">
+  <img alt="Serveis clim&agrave;tics" src="/imagenes_gcd/lineas_de_interes/indice/ico_servicios_climaticos.png" title="Serveis clim&agrave;tics" />  
+  <span>Serveis clim&agrave;tics</span></a>
+</div>
+<div class="item item_par">
+  <a href="/ca/lineas_de_interes/i_d_i" title="R+D+i">
+  <img alt="R+D+i" src="/imagenes_gcd/lineas_de_interes/indice/ico_IDI.png" title="R+D+i" />  
+  <span>R+D+i</span></a>
+</div>
+<div class="item item_impar">
+  <a href="/ca/lineas_de_interes/internacional" title="Internacional">
+  <img alt="Internacional" src="/imagenes_gcd/lineas_de_interes/indice/ico_internacional.png" title="Internacional" />  
+  <span>Internacional</span></a>
+</div></div>
+</div>
+<div id="columns"> 
+<div class="column">
+    <div class="widget">  
+        <div class="widget-head color-blue">
+        	<h3><a href="/ca/eltiempo/prediccion/avisos" class="capitalizar">meteoalerta</a></h3>
+        </div>
+        <div class="widget-content">
+        	<div class="listado_destacadas_portada mostrar_hover fondo_aviso_especial_portada no_borde">
+       	 		</div>        	
+		
+             <ul id="tabs-mapa-avisos" class="tabs">
+                 <li data-mostrar-datos-av="PB" class="ambito-selected"><a href="#tab1"><span class="tab-text">Península i Balears</span></a></li>
+                 <li data-mostrar-datos-av="CAN"><a href="#tab2"><span class="tab-text">Canàries</span></a></li>
+             </ul>
+        	<a href="/ca/eltiempo/prediccion/avisos?w=hoy" id="url-ver-avisos-mapa"><div id="mapa_avisos" >
+	<!-- 				<img class="imagen_avisos_portada" src="/imagenes_d/eltiempo/prediccion/avisos/20230316210000_avi_hoy_portada_250.png" alt="Avisos Meteorològics" title="Avisos Meteorològics" /> -->
+					
+	</div></a><div  class="color-blue sin_aviso_esp_cont_subtit_nivel_aviso_max_portada">
+	    		Nivell d'avís màxim:</div> 
+			<div>
+				<ul class="sin_aviso_esp_listado_avisos_portada">
+				<li>
+<a href="/ca/eltiempo/prediccion/avisos?w=hoy" id="url-ver-avisos-dia"><div class="fecha_nivel_aviso_max_portada">dj. 16</div>													
+									
+									<div class="ico_fondo_redondeado_aviso_nivel_"  title="Sense risc" >
+											</div></a></li>
+						<li>
+<a href="/ca/eltiempo/prediccion/avisos?w=mna" id="url-ver-avisos-dia"><div class="fecha_nivel_aviso_max_portada">dv. 17</div>													
+									
+									<div class="ico_fondo_redondeado_aviso_nivel_3"  title="Risc" >
+</div></a></li>
+						<li>
+<a href="/ca/eltiempo/prediccion/avisos?w=pmna" id="url-ver-avisos-dia"><div class="fecha_nivel_aviso_max_portada">ds. 18</div>													
+									
+									<div class="ico_fondo_redondeado_aviso_nivel_3"  title="Risc" >
+</div></a></li>
+						</ul>
+			</div>	   		
+			<div class="pie_widget_portada">
+				<div>
+					<a href="/ca/eltiempo/prediccion/avisos?w=hoy" id="url-ver-avisos">Veure més</a><div class="mas_info"></div>
+		    	</div>
+		    </div>
+        </div>
+    </div>
+<a href="#" class="scrollToTop" title="Subir a la cabecera" ></a>
+    <div class="widget">  
+        <div class="widget-head color-blue">
+            <h3>Municipis espanyols</h3>
+        </div>
+        <div class="widget-content tam_contenido_widget_portada_municipios">
+        	<div class="fondo_buscador_municipio_portada">
+        		<div class="contenedor_buscador_municipio">
+					<form name="frmLoc_menu" method="get" action="/ca/eltiempo/prediccion/municipios">										
+							<input type="text" name="str" value=" Cerca municipi..." onblur="this.value=(this.value=='') ? ' Cerca municipi...' : this.value;" onfocus="this.value=(this.value==' Cerca municipi...') ? '' : this.value;" id="buscar_municipio" class="texto_buscador" /><input type="hidden" name="modo" value="and"/>
+							<input type="hidden" name="orden" value="n"/>
+							<input type="hidden" name="tipo" value="sta"/> 
+							<input type="submit" value=" " class="boton_buscar_cabecera" title="Cercar" alt="Cercar" /></form>
+				</div>					
+        	</div>
+			<div>
+				<div id="cont_loc_visitadas">
+				    <ul id="fila_imp_loc_visit" class="listado_municipios_portada">
+				    </ul>
+				    <div class="texto_filtro_municipio">Introduce el municipio o geolocalización de interés</div>
+				</div>				
+	    	</div>
+			<div class="pie_widget_portada">
+				<div>
+		    		<a href="/ca/eltiempo/prediccion/municipios">Veure més municipis</a><div class="mas_info"></div>
+		    	</div>
+		    </div>	    		   		
+			<div class="fondo_enlace_especial_municipios">
+				<a href="/ca/eltiempo/widgets/municipios"><div class="icono_enlace_especial">
+						<img title="El temps a la seva web" alt="El temps a la seva web" src="imagenes/png/iconos/ico-conf.png">
+					</div>
+					<div class="texto_enlace_especial">
+						El temps a la seva web<div class="mas_info"></div>
+			    	</div></a></div>
+			<div class="fondo_enlace_especial_municipios">
+				<a href="/ca/eltiempo/prediccion/mundo"><div class="icono_enlace_especial">
+						<img title="Ciutats del Món" alt="Ciutats del Món" src="imagenes/png/iconos/ico-mundo.png">
+					</div>
+					<div class="texto_enlace_especial">
+						Ciutats del Món<div class="mas_info"></div>
+			    	</div></a></div>		    
+        </div>
+    </div> 
+  	<div class="widget">  
+        <div class="widget-head color-blue">
+            <h3>El temps:&nbsp;Predicció general</h3>
+        </div>
+        <div class="widget-content">  
+        	 <ul id="tabs-mapa-prediccion" class="tabs">
+                 <li data-mostrar-datos-pr="PB" data-fecha-pr="2023-03-16T22:00:00+01:00" class="ambito-selected" value="PB"><a href="#tab1"><span class="tab-text">Península i Balears</span></a></li>
+                 <li data-mostrar-datos-pr="CAN" value="CAN" data-fecha-pr="2023-03-16T21:00:00+00:00"><a href="#tab2"><span class="tab-text">Canàries</span></a></li>
+             </ul>			
+        	<div title="" class="subtitulo_pred_espana" data-locale="ca"><div>Previsió per a</div></div>
+			<a href="/ca/eltiempo/prediccion/espana" id="url-ver-prediccion-mapa"><div class="contenedor_img_pred_portada" id="mapa_prediccion"> 			
+			<!-- <img class="imagen_pred_portada" src="" alt="Mapa significatiu Espanya." title="Mapa significatiu Espanya."/>-->
+			</div></a><div class="pie_widget_portada">
+				<div>
+					<a href="/ca/eltiempo/prediccion/espana" id="url-ver-prediccion">Veure més</a><div class="mas_info"></div>
+		    	</div>
+		    </div>
+        </div>
+    </div>         
+    <div class="widget">  
+    	<script src="/js/mediaelements/mediaelement-and-player.min.js"></script>
+        <div class="widget-head color-blue">
+            <h3>El temps d'AEMET</h3>
+        </div>
+        <div class="widget-content">
+        	<div class="subtitulo_video">Prediccions en video</div>
+        	<div class="tam_contenido_widget_portada_video">
+			<video  id="video_prediccion" preload="none" poster="/documentos_d/eltiempo/prediccion/videos/202303161902_videoeltiempoAEMET.jpg" height="258" controls="controls">
+					<source src="/documentos_d/eltiempo/prediccion/videos/202303161902_videoeltiempoAEMET.mp4" type='video/mp4'>
+	<object width="100%" height="218" type="application/x-shockwave-flash" data="/js/mediaelements/mediaelement-flash-video.swf">
+						<param name="movie" value="/js/mediaelements/mediaelement-flash-video.swf">
+						<param name="flashvars" value="controls=true&amp;poster=/documentos_d/eltiempo/prediccion/videos/202303161902_videoeltiempoAEMET.jpg&amp;file=/documentos_d/eltiempo/prediccion/videos/202303161902_videoeltiempoAEMET.mp4">
+						<img class="imagen_no_disponible_video" src="/imagenes/jpg/video_no_disponible.jpg" title="Video no disponible" alt="Video no disponible" />
+					</object>
+					
+				</video>				
+				
+				<script>
+				$('#video_prediccion').mediaelementplayer({
+					poster:"/documentos_d/eltiempo/prediccion/videos/202303161902_videoeltiempoAEMET.jpg",
+					pluginPath: "/js/mediaelements/",
+					showPosterWhenEnded: true,
+					useDefaultControls: true,
+					enableAutosize: true,
+					stretching: 'responsive',
+					features:["playpause", "current", "progress", "duration", "volume", "fullscreen"]
+				});				
+				</script>						
+				</div>
+			<div class="pie_widget_portada">
+				<div>
+		    		<a href="/ca/eltiempo/prediccion/espana">Veure més</a><div class="mas_info"></div>
+		    	</div>
+		    </div>
+			<div class="fondo_enlace_especial_municipios">
+				<a href="/ca/eltiempo/widgets/video"><div class="icono_enlace_especial">
+						<img title="El video d'AEMET a la seva web" alt="El video d'AEMET a la seva web" src="imagenes/png/iconos/ico-video.png">
+					</div>
+					<div class="texto_enlace_especial">
+						El video d'AEMET a la seva web<div class="mas_info"></div>
+			    	</div></a></div>		    
+        </div>
+    </div>   	      
+    <div class="widget">  
+        <div class="widget-head color-blue">
+            <h3>
+			<a href="/ca/ca/eltiempo/observacion/radar">Radar</a></h3>
+        </div>
+        <div class="widget-content">
+			<ul id="tabs-mapa-radar" class="tabs">
+                 <li data-mostrar-datos-rd="PB"  class="ambito-selected" value="PB"><a href="#tab1"><span class="tab-text">Península i Balears</span></a></li>
+                 <li data-mostrar-datos-rd="CAN" value="CAN"><a href="#tab2"><span class="tab-text">Canàries</span></a></li>            
+             </ul>
+             <a href="/ca/eltiempo/observacion/radar" id="url-ver-radar-mapa"><div id="mapa_radar"></div></a><div class="pie_widget_portada">
+				<div>
+		    		<a href="/ca/ca/eltiempo/observacion/radar" id="link-radar">Veure més</a><div class="mas_info"></div>
+		    	</div>
+		    </div>
+		</div>
+    </div>   
+     
+    <div class="widget">  
+        <div class="widget-head color-blue">
+        <img class="floatleft imagen_portada_aviso_especial paddingtop3px" src="/imagenes/png/iconos/ico-destacado.png" alt="Destacats" title="Destacats">
+            <h3>Destacats</h3>
+        </div>
+        <div class="widget-content tam_contenido_widget_portada_destacadas">
+			<div class="listado_destacadas_portada">
+					<ul><li><a href='/documentos_d/enportada/20230310082247_p54tesp1.pdf' target='_blank'><img class='imagen_portada_noticia' title='Predicción mensual' src='/imagenes/gif/portada/p54tesp1.gif' alt='Predicción mensual'/><span class='texto_portada_noticia'>Predicción mensual. Elaborada del 10 de marzo de 2023</span></a></li></ul><ul>
+  <li>
+    <a href="/ca/eltiempo/prediccion/montana/boletin_peligro_aludes">
+    <img alt="Boletines de peligro de aludes" class="imagen_portada_noticia" src="/imagenes_gcd/zona_portada_destacada/imagen_zona_en_portada_reducida/BoletinPeligroAludes_p.jpg" title="Boletines de peligro de aludes" /> 
+    <span class="texto_portada_noticia">Bolet&iacute;n de peligro de aludes</span></a>
+  </li>
+  <li>
+    <a href="/ca/eltiempo/prediccion/montana/boletin_montana/ampliacion">
+    <img alt="Ampliaci&oacute;n cobertura geogr&aacute;fica predicci&oacute;n monta&ntilde;a" class="imagen_portada_noticia" src="/imagenes_gcd/zona_portada_destacada/imagen_zona_en_portada_reducida/boletin_montana_teide.jpg" title="Ampliaci&oacute;n cobertura geogr&aacute;fica predicci&oacute;n monta&ntilde;a" /> 
+    <span class="texto_portada_noticia">Ampliaci&oacute;n cobertura geogr&aacute;fica predicci&oacute;n monta&ntilde;a</span></a>
+  </li>
+  <li>
+    <a href="/ca/serviciosclimaticos/vigilancia_clima/resumen_precipitaciones">
+    <img alt="Resumen de las precipitaciones en Espa&ntilde;a" class="imagen_portada_noticia" src="/imagenes_gcd/zona_portada_destacada/imagen_zona_en_portada_reducida/resumen_precipitaciones_sp.jpg" title="Resumen de las precipitaciones en Espa&ntilde;a" /> 
+    <span class="texto_portada_noticia">Resumen de las precipitaciones en Espa&ntilde;a</span></a>
+  </li>
+  <li>
+    <a href="/ca/conocermas/borrascas/2022-2023">
+    <img alt="Borrascas con gran impacto de la temporada 2022-2023" class="imagen_portada_noticia" src="/imagenes_gcd/zona_portada_destacada/imagen_zona_en_portada_reducida/BORRASCAS/larissa-dest.jpg" title="Borrascas con gran impacto de la temporada 2022-2023" /> 
+    <span class="texto_portada_noticia">Borrascas con gran impacto de la temporada 2022-2023</span></a>
+  </li>
+  <li>
+    <a href="/ca/conocermas/recursos_en_linea/publicaciones_y_estudios/publicaciones/detalles/informe_estado_clima">
+    <img alt="Informe sobre el estado del clima de Espa&ntilde;a 2020" class="imagen_portada_noticia" src="/imagenes_gcd/zona_portada_destacada/imagen_zona_en_portada_reducida/informe_estado_clima_2019.jpg" title="Informe sobre el estado del clima de Espa&ntilde;a 2020" /> 
+    <span class="texto_portada_noticia">Informe sobre el estado del clima de Espa&ntilde;a 2021</span></a>
+  </li>
+</ul>
+</div>	
+				<div class="pie_widget_portada">
+					<div>						
+			    		<a href="/ca/zona_portada_destacada">Veure més</a><div class="mas_info"></div>
+			    	</div>
+			    </div>			    		    
+			</div>  			    
+    </div> 
+    <div class="widget">  
+        <div class="widget-head color-blue">
+            <h3>Twitter</h3>
+        </div>
+        <div class="widget-content tam_contenido_widget_portada_twitter">     
+			<a class="twitter-timeline" href="https://twitter.com/AEMET_Esp" data-widget-id="676722790867816448" data-chrome="noborders" data-aria-polite="assertive">Tweets por el @AEMET_Esp.</a>            
+		    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+			//----------------------
+			// Insert this into the Twitter widget code
+			//----------------------
+			js.setAttribute('onload', "twttr.events.bind('rendered',function(e) {twitterRendered()});");
+			//----------------------
+			fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			 
+			<script type="text/javascript">
+			//----------------------
+			// Callback function
+			//----------------------
+			function twitterRendered() {
+				$("#twitter-widget-0").contents().find('head').append('<style>.timeline {border-radius:0 !important}</style>');
+			}
+			//-------------------
+			</script>
+        </div>
+		<div class="fondo_enlace_especial_municipios">
+			<a href="https://aemetblog.wordpress.com" target="_blank"><div class="icono_enlace_especial">
+					<img title="AEMET blog.es" alt="AEMET blog.es" src="imagenes/png/iconos/ico-blog.png">
+				</div>
+				<div class="texto_enlace_especial">
+					AEMET blog.es<div class="mas_info"></div>
+		    	</div></a></div>        
+    </div>       
+    <div class="widget">  
+        <div class="widget-head color-blue">
+            <h3>Mapes probabilistics</h3>
+        </div>
+        <div class="widget-content">
+			<div class="contenedor_pestanhas_portada">
+				<input class="checkbox_oculto_pestanhas_portada" type="radio" id="pestanha_portada_prec_pyb" name="tab-prec" checked/><label class="nav_select_pestanha_portada pestanha_portada_pyb" for="pestanha_portada_prec_pyb">Península i Balears</label>
+				<input class="checkbox_oculto_pestanhas_portada" type="radio" id="pestanha_portada_prec_coo" name="tab-prec"/><label class="nav_select_pestanha_portada pestanha_portada_coo" for="pestanha_portada_prec_coo">Canàries</label>
+				<div class="prec_portada_pyb">
+					<a href="/ca/eltiempo/prediccion/mapas_probabilisticos?dia=&amp;zona=penyb">
+						<img src="/imagenes_d/eltiempo/prediccion/precipitacion/2023031600+024_ww_bpd5p0d1.png" alt="Probabilitat de precipitació  &ge; 0,5 mm. a Península i Balears" title="Probabilitat de precipitació  &ge; 0,5 mm. a Península i Balears" />
+					</a>
+				</div>
+				<div class="prec_portada_coo">
+					<a href="/ca/eltiempo/prediccion/mapas_probabilisticos?dia=hoy&amp;zona=can">
+						<img src="/imagenes_d/eltiempo/prediccion/precipitacion/2023031600+024_ww_bpd5c0d1.png" alt="Probabilitat de precipitació &ge; 0,5 mm. a Canàries" title="Probabilitat de precipitació &ge; 0,5 mm. a Canàries" />
+					</a>
+				</div>				
+			</div>					    
+			<div class="pie_widget_portada">
+				<div>
+		    		<a href="/ca/eltiempo/prediccion/mapas_probabilisticos">Veure més</a><div class="mas_info"></div>
+		    	</div>
+		    </div>
+        </div>
+    </div>   
+    <div class="widget">   
+        <div class="widget-head color-blue">
+        <h3><a href="/ca/noticias" class="capitalizar">informació</a></h3>
+        </div>
+        <div class="widget-content tam_contenido_widget_portada_noticias">
+			<div id="carrusel-noticias" class="owl-carousel owl-theme">
+		    		<div class="item">
+  <a href="/ca/noticias/2023/03/Avance_febrero_2023">
+    <img alt="Febrero, muy seco y normal en temperaturas" src="/imagenes_gcd/noticias/imagen_noticia_reducida_portada/2023/03/entradilla-feb-23.jpg" title="Febrero, muy seco y normal en temperaturas" />
+  </a>
+  <p>
+    <a href="/ca/noticias/2023/03/Avance_febrero_2023">Febrero de 2023, un mes muy seco y normal en cuanto a temperaturas</a>
+  </p>
+</div>
+<div class="item">
+  <a href="/ca/noticias/2023/02/resumen_clima_enero_2023">
+    <img alt="resumen climatico enero 2023" src="/imagenes_gcd/noticias/imagen_noticia_reducida_portada/2023/02/Miniaturaenero23.png" title="resumen climatico enero 2023" />
+  </a>
+  <p>
+    <a href="/ca/noticias/2023/02/resumen_clima_enero_2023">Enero de 2023, un mes en la media</a>
+  </p>
+</div>
+<div class="item">
+  <a href="/ca/noticias/2023/01/resumen_anual_2022">
+    <img alt="resumen anual 2022" src="/imagenes_gcd/noticias/imagen_noticia_reducida_portada/2023/01/Minitura_anhomascalido.jpg" title="resumen anual 2022" />
+  </a>
+  <p>
+    <a href="/ca/noticias/2023/01/resumen_anual_2022">2022, el a&ntilde;o m&aacute;s c&aacute;lido en Espa&ntilde;a</a>
+  </p>
+</div>
+<div class="item">
+  <a href="/ca/noticias/2023/01/resumen_clima_diciembre_2022">
+    <img alt="diciembre 2023 resumen climatico" src="/imagenes_gcd/noticias/imagen_noticia_reducida_portada/2023/01/miniatura_dec22.jpg" title="diciembre 2023 resumen climatico" />
+  </a>
+  <p>
+    <a href="/ca/noticias/2023/01/resumen_clima_diciembre_2022">Diciembre de 2022, el m&aacute;s c&aacute;lido de su serie mensual</a>
+  </p>
+</div>
+</div>	    	
+	    </div>
+		<div class="pie_widget_portada">
+			<div>
+	    		<a href="/ca/noticias">Veure més</a><div class="mas_info"></div>
+	    	</div>
+	    </div>			    
+    </div>                   
+</div>    
+</div>
+<div style="padding: 8px;">
+	<div id="productos-destacados" class="owl-carousel owl-theme">
+		<div class="item">
+  <a href="https://opendata.aemet.es/" target="_blank" title="AEMET OpenData (s&#39;obrir&agrave; en una finestra nova)">
+  <img alt="AEMET OpenData (s&#39;obrir&agrave; en una finestra nova)" src="/imagenes_gcd/productos_destacados/logo_AEMET_OpenData.gif" title="AEMET OpenData (s&#39;obrir&agrave; en una finestra nova)" /></a>
+</div>
+<div class="item">
+  <a href="https://dust.aemet.es/products/daily-dust-products" target="_blank" title="Predicci&oacute; de pols mineral atmosf&egrave;rica (s&#39;obrir&agrave; en una finestra nova)">
+  <img alt="Predicci&oacute; de pols mineral atmosf&egrave;rica (s&#39;obrir&agrave; en una finestra nova)" src="/imagenes_gcd/productos_destacados/sds-was.jpg" title="Predicci&oacute; de pols mineral atmosf&egrave;rica (s&#39;obrir&agrave; en una finestra nova)" /></a>
+</div>
+<div class="item">
+  <a href="https://medina.aemet.es/" target="_blank" title="MEDiNa (s&#39;obrir&agrave; en una finestra nova)">
+  <img alt="MEDiNa (s&#39;obrir&agrave; en una finestra nova)" src="/imagenes_gcd/productos_destacados/logo_medina.png" title="MEDiNa (s&#39;obrir&agrave; en una finestra nova)" /></a>
+</div>
+<div class="item">
+  <a href="https://aemetblog.es/" target="_blank" title="El blog de l&#39;Ag&egrave;ncia Estatal de Meteorolog&iacute;a (s&#39;obrir&agrave; en una finestra nova)">
+  <img alt="El blog de l&#39;Ag&egrave;ncia Estatal de Meteorolog&iacute;a (s&#39;obrir&agrave; en una finestra nova)" src="/imagenes_gcd/productos_destacados/aemet_blog.gif" title="El blog de l&#39;Ag&egrave;ncia Estatal de Meteorolog&iacute;a (s&#39;obrir&agrave; en una finestra nova)" /></a>
+</div>
+<div class="item">
+  <a href="http://meteoruta.aemet.es/p_index.html" target="_blank" title="MeteoRuta (s&#39;obrir&agrave; en una finestra nova)">
+  <img alt="MeteoRuta (s&#39;obrir&agrave; en una finestra nova)" src="/imagenes_gcd/productos_destacados/logo-meteoruta.gif" title="MeteoRuta (s&#39;obrir&agrave; en una finestra nova)" /></a>
+</div>
+<div class="item">
+  <a href="http://meteonav.aemet.es/MeteoNav/" target="_blank" title="MeteoNav (s&#39;obrir&agrave; en una finestra nova)">
+  <img alt="MeteoNav (s&#39;obrir&agrave; en una finestra nova)" src="/imagenes_gcd/productos_destacados/logo-meteonav.png" title="MeteoNav (s&#39;obrir&agrave; en una finestra nova)" /></a>
+</div>
+<div class="item">
+  <a href="https://sinobas.aemet.es/" target="_blank" title="SINOBAS (s&#39;obrir&agrave; en una finestra nova)">
+  <img alt="SINOBAS (s&#39;obrir&agrave; en una finestra nova)" src="/imagenes_gcd/productos_destacados/logo_sinobas.gif" title="SINOBAS (s&#39;obrir&agrave; en una finestra nova)" /></a>
+</div>
+<div class="item">
+  <a href="http://repositorio.aemet.es/" target="_blank" title="Arxiu documental Arcimis (s&#39;obrir&agrave; en una finestra nova)">
+  <img alt="Arxiu documental Arcimis (s&#39;obrir&agrave; en una finestra nova)" src="/imagenes_gcd/productos_destacados/archivo-documental-Arcimis.gif" title="Arxiu documental Arcimis (s&#39;obrir&agrave; en una finestra nova)" /></a>
+</div>
+<div class="item">
+  <a href="https://antartida.aemet.es/" target="_blank" title="Campanyes Ant&agrave;rtiques de AEMET (s&#39;obrir&agrave; en una finestra nova)">
+  <img alt="Campanyes Ant&agrave;rtiques de AEMET (s&#39;obrir&agrave; en una finestra nova)" src="/imagenes_gcd/productos_destacados/antartida.jpg" title="Campanyes Ant&agrave;rtiques de AEMET (s&#39;obrir&agrave; en una finestra nova)" /></a>
+</div></div>
+</div>
+<script type="text/javascript" src="/js/gears_init.js"></script>
+<script type="text/javascript" src="/js/geo.js"></script>
+	
+<script type="text/javascript">
+//<![CDATA[
+
+$(function() {
+ 
+  var lineas = $("#lineas-de-interes");
+  
+  lineas.owlCarousel({
+      items : 8, //10 items above 1000px browser width
+      itemsDesktop : [1000,6], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,5], // betweem 900px and 601px
+      itemsTablet: [600,4], //2 items between 600 and 0
+      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+  });
+
+  var productos = $("#productos-destacados");
+  
+  productos.owlCarousel({
+      items : 4, //10 items above 1000px browser width
+      itemsDesktop : [1000,4], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,3], // betweem 900px and 601px
+      itemsTablet: [600,3], //2 items between 600 and 0
+      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+  });
+  
+  var noticias = $("#carrusel-noticias");
+  
+  noticias.owlCarousel({
+	  items : 1,
+      singleItem: true,
+      itemsDesktop : [1000,1],
+      itemsDesktopSmall : [900,1],
+      itemsTablet: [600,1],
+      itemsMobile: [479,1],
+      autoPlay : true,
+      beforeInit: function($elem) {
+          var length = $elem.children().length;
+          var looplength = this.options.items - length;
+          if(looplength > 0) {
+            for(var i=0;i<looplength;i++) {
+              $elem.append('<div></div>');
+            }
+          }
+        }
+  });  
+});
+
+var ambitoPredSeleccionado1 = $('ul#tabs-mapa-prediccion > li.ambito-selected').attr('data-mostrar-datos-pr');
+
+function mandarAmbito(){
+	var ambito = "";
+	document.form.i.value=ambito;
+	document.form.submit();
+	}
+
+	
+
+var ult_mun_visit = "no_mun";
+var cookie_aemet = $.cookie("ultimas_localidades");
+
+$("#fila_imp_loc_visit").empty();
+
+if(cookie_aemet != null)
+{
+	 ult_mun_visit = "";
+	 n_ult_mun_visit = 4;
+	 var ult_localidades = cookie_aemet.split("#");
+	 for (x=0;x < ult_localidades.length - 1 && x < n_ult_mun_visit;x++)
+	 {
+		if( x == (ult_localidades.length - 1))
+		{
+			 var localidad = ult_localidades[x].split("@");
+			 ult_mun_visit += localidad[1];
+		}
+		else
+		{
+			 var localidad = ult_localidades[x].split("@");
+			 ult_mun_visit += localidad[1] + ",";
+		}
+
+	 }
+}
+
+var removeLastChar = function(value, character){ 
+	var lastChar = value.slice(-1); 
+	if(lastChar == character) { 
+		value = value.slice(0, -1); 
+	} 
+	return value; 
+} 
+
+var result = removeLastChar(ult_mun_visit, ','); 
+ 
+ult_mun_visit = result;
+
+var mun_geoloc = "";
+
+	var geo = null;
+	//funcion encargada de llamar a la pagina y pasar los parametros de latitud y longitud
+	function displayPosition(position) {
+		$.ajax({			
+			  url: "/ca/eltiempo/prediccion/municipios/geolocalizacion?munhome=" + ult_mun_visit + "&y=" + position.coords.latitude + "&x=" + position.coords.longitude,
+			  success: function(data){	
+				$("#fila_imp_loc_visit").empty();
+			    $("#fila_imp_loc_visit").append(data);
+			    $("#cont_loc_visitadas").show();
+// 			    $( "#cont_loc_visitadas" ).slideDown("slow");
+
+				if(ult_mun_visit == "no_mun"){
+				    $(".listado_municipios_portada").removeClass('elem0');
+				    $(".listado_municipios_portada").addClass('elem1');
+				} else {
+					contarMunicipiosVisitados();
+				}
+			    mun_geoloc = "mun_geolocalizado";
+			  }
+			});
+	}
+	//En caso de error en getCurrentPosition no hacemos nada
+	function displayError(positionError) {
+		if(ult_mun_visit != "no_mun")
+		{
+			$.ajax({
+ 				  url: "/ca/eltiempo/prediccion/municipios/geolocalizacion?munhome=" + ult_mun_visit,
+				  success: function(data){
+					$("#fila_imp_loc_visit").empty();
+				    $("#fila_imp_loc_visit").append(data);
+				    $("#cont_loc_visitadas").show();
+//				    $( "#cont_loc_visitadas" ).slideDown("slow");
+				  }
+				});
+		}
+	}
+
+	try 
+	{	//creamos la objeto para la gestion de geolocation
+		if(typeof(navigator.geolocation) == 'undefined')
+			geo = google.gears.factory.create('beta.geolocation');
+		else 
+			geo = navigator.geolocation;
+		
+		//mostramos las ultimas visitadas
+		if(ult_mun_visit != "no_mun"){
+				$.ajax({
+	 				  url: "/ca/eltiempo/prediccion/municipios/geolocalizacion?munhome=" + ult_mun_visit,
+					  success: function(data){
+						  
+						$("#fila_imp_loc_visit").empty();
+					    $("#fila_imp_loc_visit").append(data);
+					    $("#cont_loc_visitadas").show();
+//	 				    $( "#cont_loc_visitadas" ).slideDown("slow");	
+
+						contarMunicipiosVisitados();
+					  }
+					});
+	    }else{
+	    	$(".listado_municipios_portada").addClass('elem0');
+	    }
+		
+		
+		//Si se ha creado correctamente el objeto de geolocation llamamos a la funcion, sino no hacemos nada
+		if (geo) 
+			geo.getCurrentPosition(displayPosition, displayError);
+		else
+			geo_position_js.getCurrentPosition(displayPosition, displayError);
+	}catch(e){}	
+	
+	function contarMunicipiosVisitados(){
+		var elem_listado_municipios = $("#fila_imp_loc_visit li");
+	    var num_elem_listado_municipios = $(".listado_municipios_portada li").size();
+	    
+	    var mun_geolocal = $(".listado_municipios_portada li.municipio_geolocalizado");
+	    $(".texto_filtro_municipio").css('display','none');
+    	switch (num_elem_listado_municipios) {
+    		
+	      case 0:
+	        $(".listado_municipios_portada").addClass('elem0');
+	        $(".texto_filtro_municipio").css('display','block');
+	        break;
+	      case 1:
+	        $(".listado_municipios_portada").removeClass('elem0');
+	        $(".listado_municipios_portada").addClass('elem1');
+	        $(".texto_filtro_municipio").css('display','block');
+	        break;
+	      case 2:
+	        $(".listado_municipios_portada").removeClass('elem0');
+	        $(".listado_municipios_portada").removeClass('elem1');
+	        $(".listado_municipios_portada").addClass('elem2');
+	        $(".texto_filtro_municipio").css('display','block');
+	        break;
+	      default:
+	    	$(".listado_municipios_portada").removeClass('elem2');
+	    }
+	}
+	
+	$(document).ready(function(){
+		$('#url-ver-prediccion').attr('href','/ca/eltiempo/prediccion/espana');
+	    //$('.ico_fondo_cuadrado .listado_avisos_cabecera').remove();
+	    
+	    $('#url-ver-prediccion').on('click',function(){
+	    	
+	    	var $ambitoMapa = $('#tabs-mapa-prediccion').find('li.ambito-selected').attr('data-mostrar-datos-pr').toLowerCase();
+	    	var href = $(this).attr('href');
+	    	var indexHref = href.indexOf("?");
+	    	href = (indexHref != -1) ? href.substring(0, indexHref) : href;
+	    	$(this).attr('href', href + "?a=" + $ambitoMapa);
+	    });
+	    
+ 	    //(var mapaPred = document.getElementById("url-ver-prediccion-mapa");
+ 	    $('#url-ver-prediccion-mapa').on('click',function(){ 	    	
+ 	    	var $ambitoMapaPred = $('#tabs-mapa-prediccion').find('li.ambito-selected').attr('data-mostrar-datos-pr').toLowerCase();
+ 	    	var hrefMapa = $(this).attr('href'); 	    	
+ 	    	var indexHrefMapa = hrefMapa.indexOf("?"); 	    	
+ 	    	hrefMapa = (indexHrefMapa != -1) ? hrefMapa.substring(0, indexHrefMapa) : hrefMapa; 	    	
+ 	    	$(this).attr('href', hrefMapa + "?a=" + $ambitoMapaPred); 	    	
+ 	    });
+	    //Boton Ver mas
+	    $('#url-ver-avisos').on('click',function(){
+	    	var $ambitoMapaAvisos = $('#tabs-mapa-avisos').find('li.ambito-selected').attr('data-mostrar-datos-av').toLowerCase();
+	    	var hrefAvisos = $(this).attr('href');
+	    	$(this).attr('href', hrefAvisos + "&a=" + $ambitoMapaAvisos);
+	    });	    
+
+	    //Botones avisos dia
+	    $('.sin_aviso_esp_listado_avisos_portada li').on('click','a',function(){
+ 		  var ambitoMapaAvisosDia = $('#tabs-mapa-avisos').find('li.ambito-selected').attr('data-mostrar-datos-av').toLowerCase();
+	    	var hrefAvisosDia = $(this).attr('href');
+	    	var str = hrefAvisosDia.split("?");
+	    	hrefAvisosDia = str[0] + "?" + str[1];
+			$(this).attr('href', hrefAvisosDia + "&a=" + ambitoMapaAvisosDia + "&r=1");
+ 	   });
+ 	    
+		//Mapa de avisos
+ 	    $('#url-ver-avisos-mapa').on('click',function(){ 	    	
+ 	    	var $ambitoMapaPred = $('#tabs-mapa-avisos').find('li.ambito-selected').attr('data-mostrar-datos-av').toLowerCase();
+ 	    	var hrefMapa = $(this).attr('href'); 	    	
+ 	    	$(this).attr('href', hrefMapa + "&a=" + $ambitoMapaPred); 	    	
+ 	    });		
+	 
+	});
+
+ 	// Radar
+    $('#url-ver-radar-mapa,#link-radar').each(function(){
+    	$(this).on('click',function(){
+        	var $ambitoMapaPred = $('#tabs-mapa-radar').find('li.ambito-selected').attr('data-mostrar-datos-rd').toLowerCase();
+        	if($ambitoMapaPred == 'can'){
+        		$(this).attr('href', $(this).attr('href') + "?p=ca");	
+        	} 	    	
+    	 });
+    });
+
+ 	    
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+	//]]>	
+</script>
+<script type="text/javascript" src="/js/stats.js" ></script>
+	<noscript><img src="/js/stats.js?nojs=y" class="nodisplay" alt="estadisticas"/></noscript>
+<link rel="stylesheet" href="/css/leaflet/leaflet.css" />
+<link rel="stylesheet" href="/css/jquery-ui.css"/>
+<link rel="stylesheet" href="/css/api/variables.css"/>
+<link rel="stylesheet" href="/css/api/tabs.css"/>
+
+<script src="/js/leaflet/leaflet.js"></script>
+<script src="/js/leaflet/Leaflet.CanvasImageOverlay.js"></script>
+<script src="/js/topojson/topojson.min.js"></script>
+<script src='/js/maps/maps.js'></script>
+<script  src="/js/mpb/mpb_portada.js"></script>
+
+
+</div>
+		<div class="banner_promocional redondear">
+  <ul>
+<!-- <IF> normalize-space(Portal de la Transpar?ncia (s'obrir? en una finestra nova)) != '' -->
+    <li>
+      <a href="http://transparencia.gob.es" target="_blank" title="Portal de la Transpar&egrave;ncia (s&#39;obrir&agrave; en una finestra nova)">
+      <img alt="Portal de la Transpar&egrave;ncia (s&#39;obrir&agrave; en una finestra nova)" class="img_promocion" src="/imagenes_gcd/enlaces_promocionales/Portal_transparencia.gif" title="Portal de la Transpar&egrave;ncia (s&#39;obrir&agrave; en una finestra nova)" /></a>
+    </li>
+<!-- <IF> normalize-space(AdapteCCa. Plataforma d'intercanvi i consulta d'informaci? sobre l'adaptaci? al Canvi Clim?tic a Espanya (s'obrir? en una finestra nova)) != '' -->
+    <li>
+      <a href="http://www.adaptecca.es/" target="_blank" title="AdapteCCa. Plataforma d&#39;intercanvi i consulta d&#39;informaci&oacute; sobre l&#39;adaptaci&oacute; al Canvi Clim&agrave;tic a Espanya (s&#39;obrir&agrave; en una finestra nova)">
+      <img alt="AdapteCCa. Plataforma d&#39;intercanvi i consulta d&#39;informaci&oacute; sobre l&#39;adaptaci&oacute; al Canvi Clim&agrave;tic a Espanya (s&#39;obrir&agrave; en una finestra nova)" class="img_promocion" src="/imagenes_gcd/enlaces_promocionales/AdapteCCa_es.gif" title="AdapteCCa. Plataforma d&#39;intercanvi i consulta d&#39;informaci&oacute; sobre l&#39;adaptaci&oacute; al Canvi Clim&agrave;tic a Espanya (s&#39;obrir&agrave; en una finestra nova)" /></a>
+    </li>
+<!-- <IF> normalize-space(Dades obertes (s'obrir? en una finestra nova)) != '' -->
+    <li>
+      <a href="http://datos.gob.es" target="_blank" title="Dades obertes (s&#39;obrir&agrave; en una finestra nova)">
+      <img alt="Dades obertes (s&#39;obrir&agrave; en una finestra nova)" class="img_promocion" src="/imagenes_gcd/enlaces_promocionales/datos_abiertos/DatosAbiertos.jpg" title="Dades obertes (s&#39;obrir&agrave; en una finestra nova)" /></a>
+    </li>
+<!-- <IF> normalize-space(Informaci? d'AEMET a trav?s del tel?fon 060) != '' -->
+    <li>
+      <a href="/ca/contactar/telefono_060" title="Informaci&oacute; d&#39;AEMET a trav&eacute;s del tel&egrave;fon 060">
+      <img alt="Informaci&oacute; d&#39;AEMET a trav&eacute;s del tel&egrave;fon 060" class="img_promocion" src="/imagenes_gcd/enlaces_promocionales/tel_060.gif" title="Informaci&oacute; d&#39;AEMET a trav&eacute;s del tel&egrave;fon 060" /></a>
+    </li>
+<!-- <IF> normalize-space(Servei d'Informaci? Meteorol?gica Mundial (WWIS). Ciutats del m?n (s'obrir? en una finestra nova)) != '' -->
+    <li>
+      <a href="http://wwis.aemet.es/es/home.html" target="_blank" title="Servei d&#39;Informaci&oacute; Meteorol&ograve;gica Mundial (WWIS). Ciutats del m&oacute;n (s&#39;obrir&agrave; en una finestra nova)">
+      <img alt="Servei d&#39;Informaci&oacute; Meteorol&ograve;gica Mundial (WWIS). Ciutats del m&oacute;n (s&#39;obrir&agrave; en una finestra nova)" class="img_promocion" src="/imagenes_gcd/enlaces_promocionales/wwis_ciudades_del_mundo.gif" title="Servei d&#39;Informaci&oacute; Meteorol&ograve;gica Mundial (WWIS). Ciutats del m&oacute;n (s&#39;obrir&agrave; en una finestra nova)" /></a>
+    </li>
+<!-- <IF> normalize-space(Portal Organitzaci? Meteorol?gica Mundial (OMM) per als joves - Facebook de l'OMM en espanyol - Mitjans de comunicaci? - Web sobre igualtat de g?nere) != '' -->
+    <li>
+      <a href="/ca/omm" title="Portal Organitzaci&oacute; Meteorol&ograve;gica Mundial (OMM) per als joves - Facebook de l&#39;OMM en espanyol - Mitjans de comunicaci&oacute; - Web sobre igualtat de g&egrave;nere">
+      <img alt="Portal Organitzaci&oacute; Meteorol&ograve;gica Mundial (OMM) per als joves - Facebook de l&#39;OMM en espanyol - Mitjans de comunicaci&oacute; - Web sobre igualtat de g&egrave;nere" class="img_promocion" src="/imagenes_gcd/enlaces_promocionales/OMMes.gif" title="Portal Organitzaci&oacute; Meteorol&ograve;gica Mundial (OMM) per als joves - Facebook de l&#39;OMM en espanyol - Mitjans de comunicaci&oacute; - Web sobre igualtat de g&egrave;nere" /></a>
+    </li>
+  </ul>
+</div></div>
+</div>
+<div class="contenedor_pie">
+		<div class="texto_copy">
+			&copy; AEMET. Autoritzat l'ús de la informació i la seua reproducció citant AEMET com a autora de la mateixa.</div>
+		<div class="texto_pie">
+			<ul>
+			 	<li><a href="/ca/nota_legal">Nota Legal</a></li>
+				<li class="barra_separadora">|</li>
+	    		<li><a href="/ca/accesibilidad">Accessibilitat Web</a></li>	
+				<li class="barra_separadora">|</li>		
+			 	<li>
+			 		<a href="/ca/enlaces">Enllaços</a></li>
+				<li class="barra_separadora">|</li>
+		   		<li>
+		   			<a href="/ca/ayuda">Ajuda web</a></li>	    						
+			</ul>
+		</div>
+		
+		<div class="pie_movil">
+		
+			<div class="ico_fondo_redondeado icono_red_social_cabecera ico_blog">
+				<a href="/ca/app/eltiempodeAEMET"><img  src="/imagenes/svg/ico-phone.svg" alt="Aplicació oficial 'El Tiempo de AEMET' (Android e iOS)" title="Aplicació oficial 'El Tiempo de AEMET' (Android e iOS)" /></a></div>	
+	   		
+			<div class="icono_red_social_cabecera">
+				<a href="/ca/redes_sociales/facebook/AEMET_facebook" class="red_social"><img  src="/imagenes/svg/Facebook.svg" alt="Segueix-nos a Facebook" title="Segueix-nos a Facebook" /></a></div>	  
+	   		<div class="icono_red_social_cabecera">
+				<a href="/ca/redes_sociales/twitter/AEMET_twitter" class="red_social"><img  src="/imagenes/svg/Twitter.svg" alt="Segueix-nos a Twiter" title="Segueix-nos a Twiter" /></a></div>	
+			<div class="ico_fondo_redondeado icono_red_social_cabecera ico_blog">
+				<a href="https://aemetblog.wordpress.com" target="_blank"><img  src="/imagenes/svg/ico-blog2.svg" alt="AEMET blog.es" title="AEMET blog.es" /></a></div>		   		
+	   		<div class="icono_red_social_cabecera">			
+				<a href="/ca/redes_sociales/youtube/AEMET_YouTube" class="red_social"><img  src="/imagenes/svg/Youtube.svg" alt="Segueix-nos a YouTube" title="Segueix-nos a YouTube" /></a></div>	   		
+	   		<div class="icono_red_social_cabecera">								
+				<a href="/ca/rss_info" class="red_social"><img src="/imagenes/svg/Rss.svg" alt="RSS" title="RSS"/></a></div>
+		</div>	
+		
+		<div class="pie_home">
+			<ul>
+				<li>
+					<a target="_blank" href="http://validator.w3.org/check?uri=referer" >
+						<img  src="/imagenes/png/certificados/w3c_xhtml10.png" title="Valida XHTML 1.0 Transicional. (s'obrirà en una finestra nova)" alt="Valida XHTML 1.0 Transicional. (s'obrirà en una finestra nova)"/>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3&amp;usermedium=all&amp;warning=no">
+						<img src="/imagenes/png/certificados/w3c_vcss.gif" title="Certificat W3C Valid CSS. (s'obrirà en una finestra nova)" alt="Certificat W3C Valid CSS. (s'obrirà en una finestra nova)" />
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="http://www.w3.org/WAI/WCAG1AA-Conformance"	>
+						<img src="/imagenes/png/certificados/w3c_waiAA.gif" title="Icona de conformitat amb el Nivell Doble-A de les directrius d'Accessibilitat per al Contingut Web 1.0 del W3C-WAI. (s'obrirà en una finestra nova)" alt="Icona de conformitat amb el Nivell Doble-A de les directrius d'Accessibilitat per al Contingut Web 1.0 del W3C-WAI. (s'obrirà en una finestra nova)"/>
+					</a>
+				</li>
+				
+				</ul>
+	
+			
+		</div>		
+	</div>
+<script type="text/javascript">
+	function aceptaCookies() 
+	{ 
+		 $.cookie("accept_cookies", "ok", { expires: 1095 ,path: '/' });
+	}
+	
+	var cookie_aemet = $.cookie("accept_cookies");
+	if(cookie_aemet == null)
+	{
+		 $("#popup_cookies").show();
+	}
+	
+    $(document).ready(function () {
+        	var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+        	if (isSafari){
+        		$aspectRatio = "xMidYMid meet";
+        		var svg = document.getElementsByClassName("svg")[0];
+        		if (svg != null && svg !='') {
+	        		svg=svg.setAttribute("preserveAspectRatio", $aspectRatio);
+	        		svg = document.getElementsByClassName("svg_maritima")[0];
+	        		svg=svg.setAttribute("preserveAspectRatio", $aspectRatio);
+	        		svg = document.getElementsByClassName("svg_satelite")[0];
+	        		svg=svg.setAttribute("preserveAspectRatio", $aspectRatio);
+	        		svg = document.getElementsByClassName("svg_alta_mar")[0];
+	        		svg=svg.setAttribute("preserveAspectRatio", $aspectRatio);
+        		}
+        	}
+    });
+
+	var cookie_miweb_existe = $.cookie("miweb_conf");
+	if(cookie_miweb_existe != null)
+	{
+		$("#id_ico_miweb").css('display', 'inline-block');
+	}
+	
+	 new WOW().init();
+	</script>
+</body>
+</html>
