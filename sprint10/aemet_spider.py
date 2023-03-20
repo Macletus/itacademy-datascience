@@ -18,18 +18,19 @@ class AEMETSpider(scrapy.Spider):
     }
 
     def parse(self, response):
-        enlaces = response.css("img.lazyOwl")
+        links = response.css("img.lazyOwl")
 
-        for enlace in enlaces:
+        for link in links:
 
-            url_map = enlace.attrib["data-src"]
+            url_map = link.attrib["data-src"]
             url_map = 'https://www.aemet.es' + url_map
-
+            
+            # El nom de l'arxiu serà la última part del link a la imatge, després de l'últim '/'.
             file_name = url_map.split("/")[-1]
-
+            
+            # Es guarden a una carpeta local
             file_path = "mapes_scrapy/" + file_name
             output_map = output_path / file_path
-            print(output_map)
             output_map = Path(output_map)
             with open(output_map, "wb") as archivo:
                 archivo.write(requests.get(url_map).content)
